@@ -1,4 +1,7 @@
 import './App.css'
+import Author from './components/author'
+import Footer from './components/footer'
+import Getfreetool from './components/getfreetool'
 import Header from './components/header'
 import Navbar from './components/navbar'
 import Pricing from './components/pricing'
@@ -16,6 +19,10 @@ function App() {
       <Solutions></Solutions>
       <Tools></Tools>
       <Pricing></Pricing>
+      <Getfreetool></Getfreetool>
+      <Author></Author>
+      <Footer></Footer>
+
     </div>
   )
 }

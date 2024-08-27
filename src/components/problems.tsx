@@ -14,9 +14,10 @@ const Problems = () => {
               src: "https://getyourfirstclient.freelancerpath.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fayush.4d3df2d5.jpeg&w=828&q=75"
             }}
           />
+          <div id="2"></div>
         </div>
       </div>
-      <div className="mt-32 mx-auto px-4 sm:px-6 md:max-w-2xl md:px-4 lg:max-w-4xl lg:px-12">
+      <div className="mt-24 mx-auto px-4 sm:px-6 md:max-w-2xl md:px-4 lg:max-w-4xl lg:px-12">
           <div>
               <h2 className=" inline-flex text-blue-600 border-solid border-2 border-blue-600 px-4 py-1 rounded-full">Problems</h2>
           </div>
@@ -72,20 +73,6 @@ const Problems = () => {
               <p className="mt-2 text-sm text-slate-600">You feel stressed about not having a plan and not knowing what to do next for a successful business.</p>
             </div>
           </div>
-      </div>
-      <div className="bg-slate-100 w-full mt-40">
-          <div className="flex sm:justify-center sm:items-center sm:flex-col py-32 px-96">
-            <div>&#9733; &#9733; &#9733; &#9733; &#9733;</div>
-            <p className="text-slate-900 mt-10 text-4xl tracking-tight">“ I’ve been freelancing for a while, but I started way much slower than I should have. I wish I had this guide when I started. ”</p>
-            <User  
-            className="mt-10 w-3/4" 
-            name="Ukeme Booker"
-            description="Freelance UI/UX Designer"
-            avatarProps={{
-              src: "https://getyourfirstclient.freelancerpath.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-2.d51dcef5.png&w=256&q=75"
-            }}
-          />
-        </div>
       </div>
     </div>
   )

@@ -100,6 +100,7 @@ const Header = () => {
           </ul>
           <p className="mt-4 text-lg tracking-tight text-slate-700">By the end of this guide, you will have a clear idea of how to start your freelance business and get your first client. If you are ready, let’s get started.</p>
           <Link href="#" className="mt-10">Get free one pre-made tool straight to your inbox →</Link>
+          <div id="1"></div>
         </div>
     </div>
     </header>

@@ -1,10 +1,9 @@
 import { useState } from "react"
-
 const Tableofcontents = () => {
     const [count, setCount] = useState(false)
     const [knopka, setKnopka] = useState(true)
   return (
-    <div className="mx-auto px-4 sm:px-6 md:max-w-2xl md:px-4 lg:max-w-4xl lg:px-12 py-16">
+    <div  className="mx-auto px-4 sm:px-6 md:max-w-2xl md:px-4 lg:max-w-4xl lg:px-12 py-16 scroll-smooth">
         <div>
             <h2 className=" inline-flex text-blue-600 border-solid border-2 border-blue-600 px-4 py-1 rounded-full">table of contents</h2>
         </div>

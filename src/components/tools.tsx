@@ -53,6 +53,7 @@ const Tools = () => {
                 <p className="mt-2 text-sm text-slate-600">You are nervous about failing on your path and not being able to succeed as a freelancer.</p>
             </div>
           </div>
+          <div id="5" className="mb-14"></div>
       </div>
     </div>
   )

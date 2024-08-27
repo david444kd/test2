@@ -1,7 +1,7 @@
 import {Button} from "@nextui-org/react";
 const Pricing = () => {
   return (
-    <div>
+    <div id="5">
         <div className="mt-32 pt-16 mx-auto px-4 sm:px-6 md:max-w-2xl md:px-4 lg:max-w-4xl lg:px-12">
           <div>
               <h2 className=" inline-flex text-blue-600 border-solid border-2 border-blue-600 px-4 py-1 rounded-full">Pricing</h2>
