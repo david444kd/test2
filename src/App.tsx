@@ -3,7 +3,7 @@ import Author from './components/author'
 import Footer from './components/footer'
 import Getfreetool from './components/getfreetool'
 import Header from './components/header'
-import Navbar from './components/navbar'
+import Navvbar from './components/navbar'
 import Pricing from './components/pricing'
 import Problems from './components/problems'
 import Solutions from './components/solutions'
@@ -13,7 +13,7 @@ function App() {
   return (
     <div>
       <Header></Header>
-      <Navbar></Navbar>
+      <Navvbar></Navvbar>
       <Tableofcontents></Tableofcontents>
       <Problems></Problems>
       <Solutions></Solutions>
