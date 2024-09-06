@@ -1,10 +1,10 @@
 const Author = () => {
   return (
     <div id="6" className=" max-w-5xl pt-44 mx-auto sm:px-6">
-        <img className="-mt-16 h-44 w-44 rounded-full md:float-right md:h-64 md:w-64 lg:mr-20 lg:h-72 lg:w-72" src="https://getyourfirstclient.freelancerpath.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fauthor.c4e39cba.png&w=1200&q=75" alt="" />
-        <div className="bg-slate-50 p-20 rounded-3xl">
-            <div>
-                <h2 className=" inline-flex text-blue-600 border-solid border-2 border-blue-600 px-4 py-1 rounded-full">Author</h2>
+        <img className="-mt-16 h-44 w-44 rounded-full md:float-right float-left md:h-64 md:w-64 lg:mr-20 lg:h-72 lg:w-72" src="https://getyourfirstclient.freelancerpath.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fauthor.c4e39cba.png&w=1200&q=75" alt="" />
+        <div className="bg-slate-50 p-5 sm:p-20 rounded-3xl">
+            <div className="sm:inline-flex flex w-full sm:w-16 pt-10">
+                <h2 className="inline-flex text-blue-600 border-solid border-2 border-blue-600 px-4 py-1 rounded-full">Author</h2>
             </div>
         
             <div className="mt-8">

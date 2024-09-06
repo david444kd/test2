@@ -3,11 +3,11 @@ const Solutions = () => {
   return (
     <div>
       <div className="bg-slate-100 w-full mt-40">
-          <div className="flex sm:justify-center sm:items-center sm:flex-col py-32 px-96">
+          <div className="sm:flex sm:justify-center sm:items-center sm:flex-col py-14 sm:py-32     mx-auto px-4 sm:px-6 md:max-w-2xl md:px-4 lg:px-2 relative">
             <div>&#9733; &#9733; &#9733; &#9733; &#9733;</div>
             <p className="text-slate-900 mt-10 text-4xl tracking-tight">“ I’ve been freelancing for a while, but I started way much slower than I should have. I wish I had this guide when I started. ”</p>
             <User  
-            className="mt-10 w-3/4" 
+            className="mt-10 w-3/4 justify-start sm:justify-center" 
             name="Ukeme Booker"
             description="Freelance UI/UX Designer"
             avatarProps={{
@@ -17,6 +17,8 @@ const Solutions = () => {
           <div id="3"></div>
         </div>
       </div>
+
+
       <div className="mt-24 mx-auto px-4 sm:px-6 md:max-w-2xl md:px-4 lg:max-w-4xl lg:px-12">
           <div>
               <h2 className=" inline-flex text-blue-600 border-solid border-2 border-blue-600 px-4 py-1 rounded-full">Solutions</h2>
@@ -30,7 +32,7 @@ const Solutions = () => {
           </div>
       </div>
       <div className="mx-auto px-4 sm:px-6 md:max-w-2xl md:px-4 lg:max-w-7xl lg:px-8 mt-16">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-y-10 gap-x-8 xl:divide-x xl:-mx-12">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-y-4 sm:gap-y-10 gap-x-8 xl:divide-x xl:-mx-12">
             <div className="mt-8 xl:px-12">
               <h2 className="text-slate-900 font-medium">You won’t struggle to learn what to do.</h2>
               <p className="mt-2 text-sm text-slate-600">You'll get a step-by-step guide that will help you to get started with freelancing. What you need to do, how to do it, and finally how to get clients.</p>

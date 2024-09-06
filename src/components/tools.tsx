@@ -1,7 +1,7 @@
 const Tools = () => {
   return (
     <div className="mb-16">
-      <div className="mt-32 mx-auto px-4 sm:px-6 md:max-w-2xl md:px-4 lg:max-w-4xl lg:px-12">
+      <div className="mx-auto px-4 sm:px-6 md:max-w-2xl md:px-4 lg:max-w-4xl lg:px-12">
           <div>
               <h2 className=" inline-flex text-blue-600 border-solid border-2 border-blue-600 px-4 py-1 rounded-full">Tools and Templates</h2>
           </div>
@@ -14,7 +14,7 @@ const Tools = () => {
           </div>
       </div>
       <div className="mx-auto px-4 sm:px-6 md:max-w-2xl md:px-4 lg:max-w-7xl lg:px-8 mt-16">
-          <div className="grid grid-cols-2 lg:grid-cols-3 gap-y-10 gap-x-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-10 gap-x-8">
             <div className="mt-8">
                 <div></div>
                 <img className="shadow-lg rounded-xl" src="https://getyourfirstclient.freelancerpath.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fproposal.223863b7.png&w=828&q=75" alt="" />

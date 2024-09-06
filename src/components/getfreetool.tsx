@@ -2,7 +2,7 @@ import { Button } from "@nextui-org/react"
 
 const Getfreetool = () => {
   return (
-    <div className="bg-blue-600 py-20 gap-y-12  xl:py-32 w-full relative items-end grid grid-cols-1 lg:grid-cols-2 mt-14 sm:px-10 md:px-40 lg:px-80">
+    <div className="bg-blue-600 px-4 py-20 gap-y-12  xl:py-32 w-full relative items-end grid grid-cols-1 lg:grid-cols-2 mt-14 sm:px-10 md:px-40 lg:px-80">
         <div className="">
             <h1 className="text-5xl text-white font-extrabold tracking-tight sm:text-6xl  lg:w-auto md:w-2/3 sm:w-3/4">Get the free part of the book</h1>
             <p className="mt-4 text-lg tracking-tight text-blue-200">Enter your email address and I’ll send you one template from the book</p>

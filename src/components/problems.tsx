@@ -3,11 +3,11 @@ const Problems = () => {
   return (
     <div>
       <div className="bg-slate-100 w-full">
-          <div className="flex sm:justify-center sm:items-center sm:flex-col py-32 px-96">
+          <div className="sm:flex sm:justify-center sm:items-center sm:flex-col py-14 sm:py-32     mx-auto px-4 sm:px-6 md:max-w-2xl md:px-4 lg:px-2 relative">
             <div>&#9733; &#9733; &#9733; &#9733; &#9733;</div>
             <p className="text-slate-900 mt-10 text-4xl tracking-tight">“This is amazing... Such an incredible guide, very detailed and holistic. I wish I had it when I was getting started with freelancing”</p>
             <User  
-            className="mt-10 w-3/4" 
+            className="mt-10 w-3/4 justify-start sm:justify-center" 
             name="Ayush Chaturvedi"
             description="Indie Creator"
             avatarProps={{
@@ -17,6 +17,8 @@ const Problems = () => {
           <div id="2"></div>
         </div>
       </div>
+
+      
       <div className="mt-24 mx-auto px-4 sm:px-6 md:max-w-2xl md:px-4 lg:max-w-4xl lg:px-12">
           <div>
               <h2 className=" inline-flex text-blue-600 border-solid border-2 border-blue-600 px-4 py-1 rounded-full">Problems</h2>
