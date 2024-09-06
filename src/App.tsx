@@ -1,14 +1,14 @@
-import './App.css'
-import Author from './components/author'
-import Footer from './components/footer'
-import Getfreetool from './components/getfreetool'
-import Header from './components/header'
-import Navvbar from './components/navbar'
-import Pricing from './components/pricing'
-import Problems from './components/problems'
-import Solutions from './components/solutions'
-import Tableofcontents from './components/tableofcontents'
-import Tools from './components/tools'
+import "./App.css";
+import Author from "./components/author";
+import Footer from "./components/footer";
+import Getfreetool from "./components/getfreetool";
+import Header from "./components/header";
+import Navvbar from "./components/navbar";
+import Pricing from "./components/pricing";
+import Problems from "./components/problems";
+import Solutions from "./components/solutions";
+import Tableofcontents from "./components/tableofcontents";
+import Tools from "./components/tools";
 function App() {
   return (
     <div>
@@ -22,9 +22,8 @@ function App() {
       <Getfreetool></Getfreetool>
       <Author></Author>
       <Footer></Footer>
-
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
