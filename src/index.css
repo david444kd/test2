@@ -4,8 +4,8 @@
 
 @layer utilities {
   .stylesNav {
-    border-bottom: 4px;
-    border-color: blue;
+    border-bottom: 2px solid;
+    border-color: rgba(0, 119, 255, 0.776);
     background-color: rgba(0, 119, 255, 0.09);
   }
 }

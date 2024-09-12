@@ -31,14 +31,50 @@ const Navvbar = () => {
           if (linkElement) {
             linkElement.classList.add("stylesNav");
             const navText = document.querySelector("#popoverText");
-            // let jfkd;
+            const spanText = document.querySelector("#spanText");
             if (navText) {
-              console.log("hfjdfh");
-              // if (sectionId == "Author") {
-              //   jfkd = "06 Author";
-              //   navText.textContent = jfkd;
-              // }
-
+              if (sectionId == "Author") {
+                if (spanText) {
+                  spanText.textContent = "06";
+                  navText.textContent = "Author";
+                }
+              }
+              if (sectionId == "Pricing") {
+                if (spanText) {
+                  spanText.textContent = "05";
+                  navText.textContent = "Pricing";
+                }
+              }
+              if (sectionId == "Tools and Templates") {
+                if (spanText) {
+                  spanText.textContent = "04";
+                  navText.textContent = "Tools";
+                }
+              }
+              if (sectionId == "Solutions") {
+                if (spanText) {
+                  spanText.textContent = "03";
+                  navText.textContent = "Solutions";
+                }
+              }
+              if (sectionId == "Problems") {
+                if (spanText) {
+                  spanText.textContent = "02";
+                  navText.textContent = "Problems";
+                }
+              }
+              if (sectionId == "Contents") {
+                if (spanText) {
+                  spanText.textContent = "01";
+                  navText.textContent = "Contents";
+                }
+              }
+              if (sectionId == "Table of contents") {
+                if (spanText) {
+                  spanText.textContent = "01";
+                  navText.textContent = "Table of contents";
+                }
+              }
               navText.textContent = sectionId;
             }
           }
@@ -112,7 +148,10 @@ const Navvbar = () => {
         <Popover placement="bottom">
           <PopoverTrigger>
             <Button className="flex w-full sm:hidden rounded-none justify-start">
-              {/* <p ref={buttonRef}></p> */}
+              <p
+                id="spanText"
+                className="font-mono text-sm text-blue-600 pl-2"
+              ></p>
               <p id="popoverText" className="text-black"></p>
             </Button>
           </PopoverTrigger>
