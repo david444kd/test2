@@ -1,6 +1,6 @@
 const Tools = () => {
   return (
-    <div className="mb-16">
+    <div className="mb-16 section" id="Tools and Templates">
       <div className="mx-auto px-4 sm:px-6 md:max-w-2xl md:px-4 lg:max-w-4xl lg:px-12">
         <div>
           <h2 className=" inline-flex text-blue-600 border-solid border-2 border-blue-600 px-4 py-1 rounded-full">
@@ -109,7 +109,6 @@ const Tools = () => {
             </p>
           </div>
         </div>
-        <div id="Pricing" className="section mb-14"></div>
       </div>
     </div>
   );

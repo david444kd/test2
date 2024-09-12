@@ -1,8 +1,9 @@
 import { Button } from "@nextui-org/react";
 import { Card, CardBody } from "@nextui-org/react";
+import Getfreetool from "./getfreetool";
 const Pricing = () => {
   return (
-    <div id="5" className="section">
+    <div id="Pricing" className="section">
       <div className="md:mt-32 pt-16 mx-auto px-4 sm:px-6 md:max-w-2xl md:px-4 lg:max-w-4xl lg:px-12">
         <div>
           <h2 className=" inline-flex text-blue-600 border-solid border-2 border-blue-600 px-4 py-1 rounded-full">
@@ -132,13 +133,16 @@ const Pricing = () => {
                   >
                     <path d="M11.83 15.795a1 1 0 0 0-1.66 1.114l1.66-1.114Zm9.861-4.072a1 1 0 1 0-1.382-1.446l1.382 1.446ZM14.115 21l-.83.557a1 1 0 0 0 1.784-.258L14.115 21Zm.954.3c1.29-4.11 3.539-6.63 6.622-9.577l-1.382-1.446c-3.152 3.013-5.704 5.82-7.148 10.424l1.908.598Zm-4.9-4.391 3.115 4.648 1.661-1.114-3.114-4.648-1.662 1.114Z"></path>
                   </svg>
-                  <p className="text-white">Ongoing updates</p>
+                  <p className="text-white" id="7">
+                    Ongoing updates
+                  </p>
                 </li>
               </ul>
             </CardBody>
           </Card>
         </div>
       </div>
+      <Getfreetool></Getfreetool>
     </div>
   );
 };

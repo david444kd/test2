@@ -2,15 +2,37 @@ import { Button, Link } from "@nextui-org/react";
 const Header = () => {
   return (
     <header className="w-full min-w-full">
-      {/* <div className=" hidden lg:absolute bg-slate-100 lg:bottom-0 lg:-top-32 lg:right-[-100vw] lg:left-[-100vw] lg:block lg:bg-slate-100"></div> */}
       <div className="container mx-auto p-2 md:p-8 w-full">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-          <div className="flex justify-center">
+          <div className="relative z-50 flex justify-center w-64 md:w-80 lg:w-[30vw]">
             <img
               src="https://getyourfirstclient.freelancerpath.com/_next/image?url=/_next/static/media/cover.8d0bf130.png&w=1920&q=75"
               alt=""
-              className="w-64 md:w-80 lg:w-96"
+              className="w-64 md:w-80 lg:w-[30vw]"
             />
+          </div>
+
+          <div className="h-full  absolute  -top-20 -bottom-12 left-0 right-1/2 z-10 rounded-br-3xl bg-blue-600 text-white/10 md:bottom-8 lg:-inset-y-32 lg:right-full lg:left-[-100vw] lg:-mr-40">
+            <svg aria-hidden="true" className="absolute inset-0 h-full w-full ">
+              <defs>
+                <pattern
+                  id=":r0:"
+                  width="128"
+                  height="128"
+                  patternUnits="userSpaceOnUse"
+                  x="100%"
+                  y="100%"
+                  patternTransform="translate(112 64)"
+                >
+                  <path
+                    d="M0 128V.5H128"
+                    fill="none"
+                    stroke="currentColor"
+                  ></path>
+                </pattern>
+              </defs>
+              <rect width="100%" height="100%" fill="url(#:r0:)"></rect>
+            </svg>
           </div>
 
           <div className="sm:text-center md:text-left ">
@@ -30,24 +52,36 @@ const Header = () => {
             </p>
 
             <div className="flex justify-start md:justify-start space-x-4">
-              <Button color="primary" className="rounded-md">
+              <Button
+                color="primary"
+                className="rounded-md"
+                href="#7"
+                as={Link}
+              >
                 Get free tools
               </Button>
               <Button
                 color="primary"
+                href="#5"
+                as={Link}
                 className="rounded-md bg-white text-blue-600 !border border-blue-300 "
               >
                 Buy the guide
               </Button>
             </div>
             <div className="mt-24">
-              <span className="bg-white border border-orange-300 text-orange-600 px-5 py-2 rounded-lg font-semibold flex flex-col w-60 items-start w-45">
+              {/* <span className="bg-white border border-orange-300 text-orange-600 px-5 py-2 rounded-lg font-semibold flex flex-col w-60 items-start w-45">
                 <span className="flex text-xs">Product hunt</span>
                 <span className="flex text-sm">#5 Product of the Day</span>
-              </span>
+              </span> */}
+              <img
+                src="https://getyourfirstclient.freelancerpath.com/_next/image?url=https%3A%2F%2Fapi.producthunt.com%2Fwidgets%2Fembed-image%2Fv1%2Ftop-post-badge.svg%3Fpost_id%3D366162%26theme%3Dlight%26period%3Ddaily&w=640&q=75"
+                alt=""
+              />
             </div>
           </div>
         </div>
+
         <div className="mx-auto lg:pt-32 lg:max-w-4xl pt-20">
           <h1 className="text-4xl font-bold text-slate-900 tracking-tight">
             “How to get your first client” is a guide that prepares you to
@@ -172,7 +206,6 @@ const Header = () => {
           <Link href="#" className="mt-10">
             Get free one pre-made tool straight to your inbox →
           </Link>
-          <div className="section" id="Table of contents"></div>
         </div>
       </div>
     </header>

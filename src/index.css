@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .stylesNav {
+    border-bottom: 4px;
+    border-color: blue;
+    background-color: rgba(0, 119, 255, 0.09);
+  }
+}
