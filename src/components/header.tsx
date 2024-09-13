@@ -4,7 +4,7 @@ const Header = () => {
     <header className="w-full min-w-full">
       <div className="top-0 bg-slate-100 flex w-[100vw] h-[180vw] sm:h-[100vw] md:h-[80vw] lg:h-56 items-end lg:items-center lg:justify-end justify-center">
         <div className="w-[50vw]">
-          <div className="flex justify-center md:justify-start sm:pb-2 pb-36">
+          <div className="flex justify-center md:justify-start sm:pb-2 pb-36 mb-3">
             <svg
               aria-hidden="true"
               className="h-5 w-5 fill-blue-500"
