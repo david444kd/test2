@@ -7,23 +7,21 @@ import {
   PopoverContent,
   Button,
 } from "@nextui-org/react";
-import { useEffect } from "react";
-// import { useRef } from "react";
+import { useEffect, useState } from "react";
 const Navvbar = () => {
+  const [navButton, setnavButton] = useState(false);
   useEffect(() => {
     const sections = document.querySelectorAll<HTMLElement>(".section");
     window.addEventListener("scroll", navHighlighter);
-
     function navHighlighter() {
+      setnavButton(false);
       let scrollY = window.scrollY;
       sections.forEach((current) => {
-        // console.log(current);
         const sectionHeight = current.offsetHeight;
         const sectionTop = current.offsetTop - 150;
         const sectionId = current.getAttribute("id");
 
         if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
-          console.log("FOUND", sectionId);
           const linkElement = document.querySelector(
             "a[href*='" + sectionId + "']"
           );
@@ -146,13 +144,55 @@ const Navvbar = () => {
 
       <div className="sticky top-0 z-50">
         <Popover placement="bottom">
-          <PopoverTrigger>
-            <Button className="flex w-full sm:hidden rounded-none justify-start">
-              <p
-                id="spanText"
-                className="font-mono text-sm text-blue-600 pl-2"
-              ></p>
-              <p id="popoverText" className="text-black"></p>
+          <PopoverTrigger
+            onClick={() => {
+              if (navButton == false) {
+                setnavButton(true);
+              } else {
+                setnavButton(false);
+              }
+            }}
+          >
+            <Button className="flex w-full sm:hidden h-14 rounded-none justify-between">
+              <div className="flex justify-center">
+                <p
+                  id="spanText"
+                  className="font-mono text-sm text-blue-600 pl-2 pr-2"
+                ></p>
+                <p id="popoverText" className="text-black"></p>
+              </div>
+              {navButton && (
+                <>
+                  <div>
+                    <svg
+                      aria-hidden="true"
+                      className="w-6 h-6 stroke-slate-700"
+                      fill="none"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M17 7 7 17M7 7l10 10"></path>
+                    </svg>
+                  </div>
+                </>
+              )}
+              {navButton == false && (
+                <>
+                  <div>
+                    <svg
+                      aria-hidden="true"
+                      className="w-6 h-6 stroke-slate-700"
+                      fill="none"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="m15 16-3 3-3-3M15 8l-3-3-3 3"></path>
+                    </svg>
+                  </div>
+                </>
+              )}
             </Button>
           </PopoverTrigger>
           <PopoverContent className="w-[90vw] items-start gap-2 border-none rounded-none ">

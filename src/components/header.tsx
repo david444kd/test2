@@ -2,17 +2,67 @@ import { Button, Link } from "@nextui-org/react";
 const Header = () => {
   return (
     <header className="w-full min-w-full">
+      <div className="top-0 bg-slate-100 flex w-[100vw] h-[180vw] sm:h-56 items-end sm:items-center sm:justify-end justify-center">
+        <div className="w-[50vw]">
+          <div className="flex justify-center md:justify-start pb-2">
+            <svg
+              aria-hidden="true"
+              className="h-5 w-5 fill-blue-500"
+              viewBox="0 0 20 20"
+            >
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+            </svg>
+            <svg
+              aria-hidden="true"
+              className="h-5 w-5 fill-blue-500"
+              viewBox="0 0 20 20"
+            >
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+            </svg>
+            <svg
+              aria-hidden="true"
+              className="h-5 w-5 fill-blue-500"
+              viewBox="0 0 20 20"
+            >
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+            </svg>
+            <svg
+              aria-hidden="true"
+              className="h-5 w-5 fill-blue-500"
+              viewBox="0 0 20 20"
+            >
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+            </svg>
+            <svg
+              aria-hidden="true"
+              className="h-5 w-5 fill-blue-500"
+              viewBox="0 0 20 20"
+            >
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+            </svg>
+          </div>
+          <p className="text-slate-900 font-bold mb-2 text-center md:text-start">
+            “This step by step is genius. I wish I had known this <br /> guide a
+            lot sooner.”
+          </p>
+          <p className="text-slate-400 mb-6 text-center md:text-start">
+            <span className="text-blue-500">— Michael Montoya,</span> Freelance
+            Designer
+          </p>
+        </div>
+      </div>
       <div className="container mx-auto p-2 md:p-8 w-full">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-          <div className="relative z-50 flex justify-center w-64 md:w-80 lg:w-[30vw]">
+          <div className="absolute z-50 flex justify-center md:ml-28 ml-16  top-36  w-64 md:w-80 lg:w-[30vw]">
             <img
               src="https://getyourfirstclient.freelancerpath.com/_next/image?url=/_next/static/media/cover.8d0bf130.png&w=1920&q=75"
               alt=""
               className="w-64 md:w-80 lg:w-[30vw]"
             />
           </div>
+          <div></div>
 
-          <div className="h-full  absolute  -top-20 -bottom-12 left-0 right-1/2 z-10 rounded-br-3xl bg-blue-600 text-white/10 md:bottom-8 lg:-inset-y-32 lg:right-full lg:left-[-100vw] lg:-mr-40">
+          <div className="h-2/4 sm:h-full absolute top-0 -bottom-12 left-0 md:right-[90vw] lg:right-[80vw] sm:right-[95vw] right-2/4  z-10 rounded-br-3xl bg-blue-600 text-white/10 md:bottom-8 lg:-inset-y-[5vw] md:-inset-y-[10vw] lg:left-[-100vw] lg:-mr-40">
             <svg aria-hidden="true" className="absolute inset-0 h-full w-full ">
               <defs>
                 <pattern
@@ -35,15 +85,8 @@ const Header = () => {
             </svg>
           </div>
 
-          <div className="sm:text-center md:text-left ">
-            <p className="text-blue-600 font-bold mb-2">
-              “This step by step is genius. I wish I had known this guide a lot
-              sooner.”
-            </p>
-            <p className="text-gray-700 mb-6">
-              — Michael Montoya, Freelance Designer
-            </p>
-            <h1 className=" text-6xl md:text-4xl font-bold mb-4 ">
+          <div className="sm:text-center md:text-left pt-7 sm:pt-10 ">
+            <h1 className=" text-6xl md:text-6xl font-bold mb-4 ">
               Get your first client.
             </h1>
             <p className="text-gray-700 mb-6">
@@ -70,10 +113,6 @@ const Header = () => {
               </Button>
             </div>
             <div className="mt-24">
-              {/* <span className="bg-white border border-orange-300 text-orange-600 px-5 py-2 rounded-lg font-semibold flex flex-col w-60 items-start w-45">
-                <span className="flex text-xs">Product hunt</span>
-                <span className="flex text-sm">#5 Product of the Day</span>
-              </span> */}
               <img
                 src="https://getyourfirstclient.freelancerpath.com/_next/image?url=https%3A%2F%2Fapi.producthunt.com%2Fwidgets%2Fembed-image%2Fv1%2Ftop-post-badge.svg%3Fpost_id%3D366162%26theme%3Dlight%26period%3Ddaily&w=640&q=75"
                 alt=""
@@ -82,7 +121,7 @@ const Header = () => {
           </div>
         </div>
 
-        <div className="mx-auto lg:pt-32 lg:max-w-4xl pt-20">
+        <div className="mx-auto lg:pt-96 lg:max-w-4xl pt-20">
           <h1 className="text-4xl font-bold text-slate-900 tracking-tight">
             “How to get your first client” is a guide that prepares you to
             become a freelancer and get your first client.
