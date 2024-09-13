@@ -2,9 +2,9 @@ import { Button, Link } from "@nextui-org/react";
 const Header = () => {
   return (
     <header className="w-full min-w-full">
-      <div className="top-0 bg-slate-100 flex w-[100vw] h-[180vw] sm:h-56 items-end sm:items-center sm:justify-end justify-center">
+      <div className="top-0 bg-slate-100 flex w-[100vw] h-[180vw] sm:h-[100vw] md:h-[80vw] lg:h-56 items-end lg:items-center lg:justify-end justify-center">
         <div className="w-[50vw]">
-          <div className="flex justify-center md:justify-start pb-2">
+          <div className="flex justify-center md:justify-start sm:pb-2 pb-36">
             <svg
               aria-hidden="true"
               className="h-5 w-5 fill-blue-500"
@@ -41,19 +41,19 @@ const Header = () => {
               <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
             </svg>
           </div>
-          <p className="text-slate-900 font-bold mb-2 text-center md:text-start">
-            “This step by step is genius. I wish I had known this <br /> guide a
-            lot sooner.”
+          <p className="text-slate-900 font-bold mb-2 text-center md:text-start absolute m-auto left-7 right-7 top-2/3 sm:top-auto sm:right-auto sm:left-auto sm:static">
+            “This step by step is genius. I wish I had known this guide a lot
+            sooner.”
           </p>
-          <p className="text-slate-400 mb-6 text-center md:text-start">
+          <p className="text-slate-400 mb-6 text-center md:text-start absolute m-auto left-7 right-7 top-3/4 sm:top-auto sm:right-auto sm:left-auto sm:static">
             <span className="text-blue-500">— Michael Montoya,</span> Freelance
             Designer
           </p>
         </div>
       </div>
       <div className="container mx-auto p-2 md:p-8 w-full">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-          <div className="absolute z-50 flex justify-center md:ml-28 ml-16  top-36  w-64 md:w-80 lg:w-[30vw]">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center justify-center">
+          <div className="absolute z-50 flex justify-center -translate-x-1/2  -translate-y-1/2 left-1/2 right-1/2 lg:right-auto lg:left-auto lg:-translate-x-0 lg:-translate-y-0 lg:ml-28  top-52 lg:top-32 w-64 md:w-96 lg:w-[30vw]">
             <img
               src="https://getyourfirstclient.freelancerpath.com/_next/image?url=/_next/static/media/cover.8d0bf130.png&w=1920&q=75"
               alt=""
@@ -62,8 +62,8 @@ const Header = () => {
           </div>
           <div></div>
 
-          <div className="h-2/4 sm:h-full absolute top-0 -bottom-12 left-0 md:right-[90vw] lg:right-[80vw] sm:right-[95vw] right-2/4  z-10 rounded-br-3xl bg-blue-600 text-white/10 md:bottom-8 lg:-inset-y-[5vw] md:-inset-y-[10vw] lg:left-[-100vw] lg:-mr-40">
-            <svg aria-hidden="true" className="absolute inset-0 h-full w-full ">
+          <div className="h-2/4 xl:h-full lg:h-3/4 absolute top-0 -bottom-12 left-0  lg:right-[80vw] md:right-[70vw] right-2/4 z-10 rounded-br-3xl bg-blue-600 text-white/10 md:bottom-8 lg:-inset-y-[5vw] md:-inset-y-[10vw] lg:left-[-100vw] ">
+            <svg aria-hidden="true" className="absolute inset-0 h-auto w-full ">
               <defs>
                 <pattern
                   id=":r0:"
@@ -121,7 +121,7 @@ const Header = () => {
           </div>
         </div>
 
-        <div className="mx-auto lg:pt-96 lg:max-w-4xl pt-20">
+        <div className="mx-auto xl:pt-96 lg:pt-72 md:pt-60 lg:max-w-4xl pt-20">
           <h1 className="text-4xl font-bold text-slate-900 tracking-tight">
             “How to get your first client” is a guide that prepares you to
             become a freelancer and get your first client.
