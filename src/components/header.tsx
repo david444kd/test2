@@ -1,5 +1,12 @@
 import { Button, Link } from "@nextui-org/react";
+import { useState } from "react";
+import { useTranslation } from "react-i18next";
 const Header = () => {
+  const [language, setLanguage] = useState("en");
+  const { t, i18n } = useTranslation();
+  const changeLang = (lang: string) => {
+    i18n.changeLanguage(lang);
+  };
   return (
     <header className="w-full min-w-full">
       <div className="top-0 bg-slate-100 flex w-[100vw] h-[180vw] sm:h-[100vw] md:h-[80vw] lg:h-56 items-end lg:items-center lg:justify-end justify-center">
@@ -87,7 +94,8 @@ const Header = () => {
 
           <div className="sm:text-center md:text-left pt-7 sm:pt-10 ">
             <h1 className=" text-6xl md:text-6xl font-bold mb-4 ">
-              Get your first client.
+              {/* Get your first client. */}
+              {t("text")}
             </h1>
             <p className="text-gray-700 mb-6">
               A complete step by step guide to get your first client as a
@@ -110,6 +118,24 @@ const Header = () => {
                 className="rounded-md bg-white text-blue-600 !border border-blue-300 "
               >
                 Buy the guide
+              </Button>
+              <Button
+                id="langButton"
+                color="primary"
+                className="rounded-md"
+                href="#"
+                as={Link}
+                onPress={() => {
+                  if (language == "en") {
+                    changeLang("ru");
+                    setLanguage("ru");
+                  } else {
+                    changeLang("en");
+                    setLanguage("en");
+                  }
+                }}
+              >
+                {language === "en" ? "Switch to Russian" : "Switch to English"}
               </Button>
             </div>
             <div className="mt-24">
