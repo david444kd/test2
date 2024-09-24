@@ -70,7 +70,7 @@ const Header = () => {
           </div>
           <div></div>
 
-          <div className="h-2/4 xl:h-full lg:h-3/4 absolute top-0 -bottom-12 left-0  lg:right-[80vw] md:right-[70vw] right-2/4 z-10 rounded-br-3xl bg-blue-600 text-white/10 md:bottom-8 lg:-inset-y-[5vw] md:-inset-y-[10vw] lg:left-[-100vw] ">
+          <div className="h-2/4 xl:h-full lg:h-3/4 absolute top-0 -bottom-12 left-0  lg:right-[80vw] md:right-[70vw] right-2/4 z-10 rounded-br-3xl bg-orange-500 text-white/10 md:bottom-8 lg:-inset-y-[5vw] md:-inset-y-[10vw] lg:left-[-100vw] ">
             <svg aria-hidden="true" className="absolute inset-0 h-auto w-full ">
               <defs>
                 <pattern
@@ -102,10 +102,10 @@ const Header = () => {
             <p className="text-gray-700 mb-6">{t("header.0.info2")}</p>
             <p className="text-gray-700 mb-6">{t("header.0.info3")}</p>
 
-            <div className="justify-start md:justify-startspace-x-4 grid grid-cols-1 md:grid-cols-3">
+            <div className="justify-start md:justify-startspace-x-4 grid grid-cols-1 md:grid-cols-3 sm:space-x-4 space-y-4 sm:space-y-0">
               <Button
                 color="primary"
-                className="rounded-md bg-orange-500"
+                className="rounded-md bg-orange-500 text-xs"
                 href="#7"
                 as={Link}
               >
@@ -122,7 +122,7 @@ const Header = () => {
               <Button
                 id="langButton"
                 color="primary"
-                className="rounded-md"
+                className="rounded-md bg-orange-500"
                 href="#"
                 as={Link}
                 onPress={() => {

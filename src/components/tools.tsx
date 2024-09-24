@@ -1,22 +1,18 @@
+import { useTranslation } from "react-i18next";
 const Tools = () => {
+  const { t } = useTranslation();
   return (
     <div className="mb-16 section" id="Tools and Templates">
       <div className="mx-auto px-4 sm:px-6 md:max-w-2xl md:px-4 lg:max-w-4xl lg:px-12">
         <div>
-          <h2 className=" inline-flex text-blue-600 border-solid border-2 border-blue-600 px-4 py-1 rounded-full">
-            Tools and Templates
+          <h2 className=" inline-flex text-orange-500 border-solid border-2 border-orange-500 px-4 py-1 rounded-full">
+            {t("materials.0.caption")}
           </h2>
         </div>
         <div className="mt-8">
-          <h1 className="text-3xl font-bold text-slate-900 tracking-tight font-serif">
-            Pre-made tools and templates to help you get started
+          <h1 className="text-2xl font-bold text-slate-900 tracking-tight font-serif">
+            {t("materials.0.title")}
           </h1>
-        </div>
-        <div className="mt-4">
-          <p className="text-slate-700 text-lg">
-            I created a few tools and templates to help you get started
-            freelancing.
-          </p>
         </div>
       </div>
       <div className="mx-auto px-4 sm:px-6 md:max-w-2xl md:px-4 lg:max-w-7xl lg:px-8 mt-16">
@@ -29,10 +25,11 @@ const Tools = () => {
               alt=""
             />
             <h3 className="text-slate-500 font-mono mb-2 text-sm mt-8">01</h3>
-            <h2 className="text-slate-900 font-medium">Proposal Template</h2>
+            <h2 className="text-slate-900 font-medium">
+              {t("materials.0.heading1")}
+            </h2>
             <p className="mt-2 text-sm text-slate-600">
-              You tried different strategies and felt overwhelmed by the work
-              you had to do, but you got no clients.
+              {t("materials.0.heading1text")}
             </p>
           </div>
           <div className="mt-8">
@@ -42,10 +39,11 @@ const Tools = () => {
               alt=""
             />
             <h3 className="text-slate-500 font-mono mb-2 text-sm mt-8">02</h3>
-            <h2 className="text-slate-900 font-medium">Contract Template</h2>
+            <h2 className="text-slate-900 font-medium">
+              {t("materials.0.heading2")}
+            </h2>
             <p className="mt-2 text-sm text-slate-600">
-              You want to start freelancing, but you are unsure about the
-              process and how to get started.
+              {t("materials.0.heading2text")}
             </p>
           </div>
           <div className="mt-8">
@@ -56,11 +54,10 @@ const Tools = () => {
             />
             <h3 className="text-slate-500 font-mono mb-2 text-sm mt-8">03</h3>
             <h2 className="text-slate-900 font-medium">
-              Invoice Management System and Invoice Template
+              {t("materials.0.heading3")}
             </h2>
             <p className="mt-2 text-sm text-slate-600">
-              You tried different tools for starting but you are still not sure
-              how to use them effectively.
+              {t("materials.0.heading3text")}
             </p>
           </div>
           <div className="mt-8">
@@ -71,11 +68,10 @@ const Tools = () => {
             />
             <h3 className="text-slate-500 font-mono mb-2 text-sm mt-8">04</h3>
             <h2 className="text-slate-900 font-medium">
-              Project Management System
+              {t("materials.0.heading4")}
             </h2>
             <p className="mt-2 text-sm text-slate-600">
-              You think you are the only one struggling with the process of
-              becoming a freelancer and you feel alone.
+              {t("materials.0.heading4text")}
             </p>
           </div>
           <div className="mt-8">
@@ -86,11 +82,10 @@ const Tools = () => {
             />
             <h3 className="text-slate-500 font-mono mb-2 text-sm mt-8">05</h3>
             <h2 className="text-slate-900 font-medium">
-              Customer Management System - a basic CRM
+              {t("materials.0.heading5")}
             </h2>
             <p className="mt-2 text-sm text-slate-600">
-              You are worried about the financial aspect of freelancing and be
-              failed about starting a new life.
+              {t("materials.0.heading5text")}
             </p>
           </div>
           <div className="mt-8">
@@ -101,11 +96,10 @@ const Tools = () => {
             />
             <h3 className="text-slate-500 font-mono mb-2 text-sm mt-8">06</h3>
             <h2 className="text-slate-900 font-medium">
-              Ongoing Support and New Tools
+              {t("materials.0.heading6")}
             </h2>
             <p className="mt-2 text-sm text-slate-600">
-              You are nervous about failing on your path and not being able to
-              succeed as a freelancer.
+              {t("materials.0.heading6text")}
             </p>
           </div>
         </div>

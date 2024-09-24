@@ -66,5 +66,77 @@
       "case3companies": "Yango, inDrive, Amma pregnancy tracker, Solar Staff, make love, Colife, YallaHub, WEE marketplace, Realiste, drinkits,",
       "message": "“ I’m a founder of startup for a while, and we are working in the Latam market 2 years. I wish I had this book when I started.”"
     }
+  ],
+  "modules": [
+    {
+      "caption": " » WHO THIS MASTER CLASS IS FOR «",
+      "title": "Is Book First Steps GoGlobal right for you? ",
+      "text": "The Book is for globally-minded professionals who want to build successful careers driving global growth for companies",
+      "heading1": "Employees whose job touches global",
+      "heading1text": "If your work involves anything international or requires that you interact with colleagues across the globe the book will help you develop the confidence and know-how to get alignment and support of your ideas, while helping you execute of your company’s international strategy",
+      "heading2": "Functional Team Members working on International",
+      "heading2text": "No matter whether you are part of a product team, sales, marketing, operations, the book will help you and your team navigate the challenges you are facing to effectively localize your business for international markets and efficiently operate at global scale",
+      "heading3": "Corporate leaders with international responsibility",
+      "heading3text": "The book helps professionals whose companies already have an existing global footprint with insights to overcome challenges and further penetrate international markets, helping you increase your company's market share and improve cross-functional collaboration",
+      "heading4": "Local Market Teams",
+      "heading4text": "The book helps local teams better partner with HQ, removing barriers, gaining autonomy and preventing the typical “us vs. them” mentality that affects many teams",
+      "heading5": "Scale-up Executives",
+      "heading5text": "For leaders of fast-growing companies with global aspirations, the book provides a blueprint for success, outlining a pathway to global scale and a playbook to guide your step-by-step along the way",
+      "heading6": "Market Entry Consultants",
+      "heading6text": "Supercharge your business. or those helping companies expand to new markets, the book  can provide additional value to your clients and give your services a competitive advantages"
+    }
+  ],
+  "materials": [
+    {
+      "caption": "» WHAT'S INCLUDED « ",
+      "title": "All the tools you need to build a successful global business",
+      "heading1": "8 Modules &  48 interviews",
+      "heading2": "Case Studies",
+      "heading3": "Practical Exercises",
+      "heading4": "Best-in-Class Global Strategy Tools",
+      "heading5": "Document Templates & Checklists",
+      "heading6": "Free Added Bonuses",
+      "heading1text": "Easy to follow stories with graphics to make book concepts come alive, each covers a targeted topic and is easy to revisit",
+      "heading2text": "Learn from real world situations top companies like Yango, Bitrix24, and iSpring faced, to avoid mistakes and implement effective strategies",
+      "heading3text": "Solidify key learnings by applying insights and frameworks from the master class to your current organization through simple, yet engaging exercises",
+      "heading4text": "Access frameworks for localization, team building,  navigating culture and managing at scale; frameworks tailored to global uses cases, saving your company time and money",
+      "heading5text": "Get essential templates and checklists to help you manage legal, regulatory, and compliance requirements when entering new markets—everything you need to stay organized and compliant.",
+      "heading6text": "Get 20+ bonuses (30+ for Cohort members) that include a free copy of the book Global Class, unreleased chapters, properietary tools and content not released anywhere else"
+    }
+  ],
+  "pricing": [
+    {
+      "caption": " » GET STARTED TODAY! « ",
+      "title": "Get your copy of the First Steps GoGlobal",
+      "infoText": "Book is available in two different packages so you can pick the one that’s right for you.",
+      "firstCardCaption": "Employee Growth",
+      "firstCardText": "A full self-paced video course which includes short module summaries AND in depth explanations of key concepts developed in book First Steps GoGlobal. Students can learn at their own pace, download frameworks to directly apply to their own company through practical exercises, AND learn how to best socialize these concepts to get organizational buy-in.",
+      "firstCardButton": "BUY THE BOOK (SIGNED BY AUTHORS)",
+      "firstCardCheck1": "SIGNED COPY of First Steps GoGlobal",
+      "firstCardCheck2": "Get Full Access to the Global Community (for an entire year), our ecosystem of global growth professionals across the globe, allowing you to get active support and your questions answered on-demand by experts",
+      "firstCardCheck3": "20+ Exclusive BONUSES that include proprietary tools, templates and guides that dig deeper into each stage of the global growth journey (see the full list here)",
+      "firstCardCheck4": "Lifetime access to 80+ master class videos to refer back to when you need guidance on specific topics",
+      "secondCardCaption": "Enterprise Growth",
+      "secondCardText": "A group-based learning program that offers additional benefits of coaching by the authors of First Steps GoGlobal, with a focus on providing custom strategic support to your organization. It incl. a free organizational assessment, coaching sessions (only offered to corporate clients) as well as up to 5 access to the Master Class.",
+      "secondCardButton": "BUY THE BOOK (SIGNED BY AUTHORS)",
+      "secondCardCheck1": "EVERYTHING in Personal Growth, plus!",
+      "secondCardCheck2": "Lifetime access to the Global Community, our ecosystem of global growth professionals across the globe, allowing you to get active support and your questions answered on-demand by experts",
+      "secondCardCheck3": "10+ more BONUSES (in addition to 20+ bonuses from the Personal Growth package) providing deeper analysis on your company's challenges and opportunities",
+      "secondCardCheck4": "Priority response in private Slack channel for cohort participants ",
+      "footer": "» limited to 5 companies only «",
+
+      "formTitle": "Want to get FREE Module ? Please contact Us.",
+      "formLink": "Get your copy of the First Steps GoGlobal →",
+      "emailPlacegolder": "Email address",
+      "formButton": "Send"
+    }
+  ],
+  "author": [
+    {
+      "caption": "Author",
+      "name": "Anton Minkowski –",
+      "textAfterName": "Hey there, I’m the author behind ‘First steps GoGlobal’.",
+      "info": "The book is authored by Anton Minkowski, founder of Greatleads, a UK-based agency that specializes in helping technology companies expand into new markets. With expertise in sales, research, HR, influence, and performance marketing, Anton has guided more than 50 companies through the complexities of international growth in all continents."
+    }
   ]
 }

@@ -36,46 +36,46 @@ const Navvbar = () => {
               if (sectionId == "Author") {
                 if (spanText) {
                   spanText.textContent = "06";
-                  navText.textContent = "Author";
+                  navText.textContent = t("nav.0.6");
                 }
               }
               if (sectionId == "Pricing") {
                 if (spanText) {
                   spanText.textContent = "05";
-                  navText.textContent = "Pricing";
+                  navText.textContent = t("nav.0.5");
                 }
               }
               if (sectionId == "Tools and Templates") {
                 if (spanText) {
                   spanText.textContent = "04";
-                  navText.textContent = "Tools";
+                  navText.textContent = t("nav.0.4");
                 }
               }
               if (sectionId == "Solutions") {
                 if (spanText) {
                   spanText.textContent = "03";
-                  navText.textContent = "Solutions";
+                  navText.textContent = t("nav.0.3");
                 }
               }
               if (sectionId == "Problems") {
                 if (spanText) {
                   spanText.textContent = "02";
-                  navText.textContent = "Problems";
+                  navText.textContent = t("nav.0.2");
                 }
               }
-              if (sectionId == "Contents") {
-                if (spanText) {
-                  spanText.textContent = "01";
-                  navText.textContent = "Contents";
-                }
-              }
+              // if (sectionId == "Contents") {
+              //   if (spanText) {
+              //     spanText.textContent = "01";
+              //     navText.textContent = "Contents";
+              //   }
+              // }
               if (sectionId == "Table of contents") {
                 if (spanText) {
                   spanText.textContent = "01";
-                  navText.textContent = "Table of contents";
+                  navText.textContent = t("nav.0.1");
                 }
               }
-              navText.textContent = sectionId;
+              // navText.textContent = sectionId;
             }
           }
         } else {
@@ -165,7 +165,7 @@ const Navvbar = () => {
               <div className="flex justify-center">
                 <p
                   id="spanText"
-                  className="font-mono text-sm text-blue-600 pl-2 pr-2"
+                  className="font-mono text-sm text-orange-500 pl-2 pr-2"
                 ></p>
                 <p id="popoverText" className="text-black"></p>
               </div>
@@ -210,8 +210,10 @@ const Navvbar = () => {
                 color="foreground"
                 href="#Table of contents"
               >
-                <span className="font-mono text-sm text-blue-600 pl-2">01</span>
-                Table of contents
+                <span className="font-mono text-sm text-orange-500 pl-2">
+                  01
+                </span>
+                {t("nav.0.1")}
               </Link>
             </div>
             <div className="px-1 py-2 w-full">
@@ -220,8 +222,10 @@ const Navvbar = () => {
                 color="foreground"
                 href="#Problems"
               >
-                <span className="font-mono text-sm text-blue-600 pl-2">02</span>
-                Problems
+                <span className="font-mono text-sm text-orange-500 pl-2">
+                  02
+                </span>
+                {t("nav.0.2")}
               </Link>
             </div>
             <div className="px-1 py-2 w-full">
@@ -230,8 +234,10 @@ const Navvbar = () => {
                 color="foreground"
                 href="#Solutions"
               >
-                <span className="font-mono text-sm text-blue-600 pl-2">03</span>
-                Solutions
+                <span className="font-mono text-sm text-orange-500 pl-2">
+                  03
+                </span>
+                {t("nav.0.3")}
               </Link>
             </div>
             <div className="px-1 py-2 w-full">
@@ -240,20 +246,26 @@ const Navvbar = () => {
                 color="foreground"
                 href="#Tools and Templates"
               >
-                <span className="font-mono text-sm text-blue-600 pl-2">04</span>
-                Tools
+                <span className="font-mono text-sm text-orange-500 pl-2">
+                  04
+                </span>
+                {t("nav.0.4")}
               </Link>
             </div>
             <div className="px-1 py-2 w-full">
               <Link className="gap-2 w-full" color="foreground" href="#Pricing">
-                <span className="font-mono text-sm text-blue-600 pl-2">05</span>
-                Pricing
+                <span className="font-mono text-sm text-orange-500 pl-2">
+                  05
+                </span>
+                {t("nav.0.5")}
               </Link>
             </div>
             <div className="px-1 py-2 w-full">
               <Link className="gap-2 w-full" color="foreground" href="#Author">
-                <span className="font-mono text-sm text-blue-600 pl-2">06</span>
-                Author
+                <span className="font-mono text-sm text-orange-500 pl-2">
+                  06
+                </span>
+                {t("nav.0.6")}
               </Link>
             </div>
           </PopoverContent>
