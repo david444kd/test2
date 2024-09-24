@@ -1,34 +1,30 @@
 import { useState } from "react";
 import { Card, CardBody, User } from "@nextui-org/react";
+import { useTranslation } from "react-i18next";
 const Tableofcontents = () => {
+  const { t } = useTranslation();
   const [count, setCount] = useState(false);
   const [knopka, setKnopka] = useState(true);
   return (
     <div id="Table of contents" className="section">
       <div className="mx-auto px-4 sm:px-6 md:max-w-2xl md:px-4 lg:max-w-4xl lg:px-12 py-16 scroll-smooth">
         <div>
-          <h2 className=" inline-flex text-blue-600 border-solid border-2 border-blue-600 px-4 py-1 rounded-full">
-            table of contents
+          <h2 className=" inline-flex text-orange-500 border-solid border-2 border-orange-500 px-4 py-1 rounded-full">
+            {t("description.0.caption")}
           </h2>
         </div>
         <div className="mt-8">
           <h1 className="text-4xl font-bold text-slate-900 tracking-tight font-serif">
-            Get a look at all of the content covered in the guide. Everything
-            you need to know is inside.
+            {t("description.0.text")}
           </h1>
         </div>
         <div className="mt-4">
-          <p className="text-slate-700 text-lg">
-            “Get Your First Client” is designed to be a complete guide for the
-            ones who want to start freelancing. It’s a step-by-step guide that
-            will help you to get started with freelancing. What you need to do,
-            how to do it, and finally, how to get clients.
-          </p>
+          <p className="text-slate-700 text-lg">{t("description.0.about")}</p>
         </div>
 
         <ol className=" mt-16 space-y-10 sm:space-y-16">
           <h3 className="text-3xl font-bold tracking-tight text-slate-900">
-            Getting started
+            {t("description.0.module1")}
           </h3>
           <Card className="bg-slate-50 shadow-none">
             <CardBody>
@@ -46,7 +42,7 @@ const Tableofcontents = () => {
             </CardBody>
           </Card>
           <h3 className="text-3xl font-bold tracking-tight text-slate-900">
-            Sources
+            {t("description.0.module2")}
           </h3>
           <Card className="bg-slate-50 shadow-none">
             <CardBody>
@@ -208,9 +204,7 @@ const Tableofcontents = () => {
         <div className="sm:flex sm:justify-center sm:items-center sm:flex-col py-14 sm:py-32 mx-auto px-4 sm:px-6 md:max-w-2xl md:px-4 lg:px-2 relative">
           <div>&#9733; &#9733; &#9733; &#9733; &#9733;</div>
           <p className="text-slate-900 mt-10 text-4xl tracking-tight">
-            “This is amazing... Such an incredible guide, very detailed and
-            holistic. I wish I had it when I was getting started with
-            freelancing”
+            {t("description.0.message")}
           </p>
           <User
             className="mt-10 w-3/4 justify-start sm:justify-center"

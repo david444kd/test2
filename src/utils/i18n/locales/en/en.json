@@ -1,3 +1,71 @@
 {
-  "text": "text"
+  "top": [
+    {
+      "about": "“I gathered all our experience and everyone I could reach out to over the last 3 years.”",
+      "topName": "— Antony Minkowski,",
+      "topDescription": "founder of 5 startups, head of the agency Greatleads in England."
+    }
+  ],
+  "header": [
+    {
+      "caption": "EXCLUSIVE CASE STUDIES FROM COMPANIES LIKE",
+      "info1": "The author engages in thought-provoking conversations with founders of companies operating in the global market. Through these intimate dialogues, the founders share their personal stories, challenges, and strategies for navigating the complexities of international expansion.",
+      "info2": "The book explores the \"first steps\" toward building a global business, delving into topics such as cultural adaptation, market entry, overcoming fears of failure, and dealing with the unpredictability of foreign markets. Each chapter features a different founder from a diverse range of industries and regions, providing a nuanced look at the mindset, courage, and innovative thinking required to take the leap into new territories.",
+      "info3": "In this conversational format, readers learn actionable insights and strategies while also gaining a deeper understanding of the emotional and mental resilience necessary to succeed on a global stage. This book offers a fresh perspective on global entrepreneurship, blending real-world business advice with the inspiring personal journeys of those who dared to take their companies beyond borders."
+    }
+  ],
+  "nav": [
+    {
+      "1": "Description",
+      "2": "For whom",
+      "3": "Modules",
+      "4": "Materials",
+      "5": "Pricing",
+      "6": "Author"
+    }
+  ],
+  "main": [
+    {
+      "caption": "The course that transforms your team into your company's global growth engine",
+      "1": "First Steps GoGlobal",
+      "text1": "From market entry to international growth, Greatleads offers a comprehensive toolkit of practical tools to help you build and manage a global business.",
+      "2": "Localization Without Mistakes",
+      "text2": "Avoid common mistakes that lead companies to waste time and money on unsuccessful expansion. Use proven launch strategies to achieve international Product-Market Fit faster.",
+      "3": "The Path to Global Scale",
+      "text3": "Don't just succeed in a new market—create the right sequence of markets and a strategy that allows you to rapidly scale your business and effectively manage your team on a global level.",
+
+      "checkInfo": "All the practical insights, tools and frameworks to solve your current global growth challenges:",
+      "check1": "Get leadership buy-in on your global strategy with practical tools",
+      "check2": "Develop market selection frameworks that rapidly make you a local market leader",
+      "check3": "Implement market entry strategies that differentiate and generate 8-9X ROI",
+      "check4": "Build high-performing, empowered teams that execute expansion strategies, autonomously",
+      "check5": "Create scalable playbooks that turbocharges speed-to-market across a global footprint, simultaneously",
+      "link": "Equip your team with the proven playbook to build a profitable global footprint →"
+    }
+  ],
+  "button1": "Get your copy of the First Steps GoGlobal",
+  "button2": "Get Discount %",
+  "description": [
+    {
+      "caption": "» WHAT YOUR TEAM WILL LEARN « ",
+      "text": "Get a look at all of the content covered in the guide. Everything you need to know is inside.",
+      "about": "Every module include short videos with concrete and actionable next-steps and reflection exercises that your team can put into practice immediately",
+      "module1": "Module 1: Introduction & Course Overview",
+      "module2": "Module 2: The Global Class Mindset",
+      "message": "“This is amazing... Such incredible cases, very detailed and holistic.”"
+    }
+  ],
+  "cases": [
+    {
+      "caption": " » CASES «",
+      "title": "EXCLUSIVE CASE STUDIES FROM COMPANIES LIKE",
+      "case1caption": "B2B COMPANIES",
+      "case1companies": "iSpring, Bitrix, Altegio, Jivosite, Borzo, Kammo, Usedesk, Edadeal, Albato, SocialJet, Electroneek, Sumsub, Smart driving, Amivisor, Uplify, Livedune, Ivitech, Sputnik, megainsight, Konsol, Proks, LinkedHelper, Lemon ai, palt, AIstats",
+      "case2caption": "B2C COMPANIES",
+      "case2companies": "Ebac, Kodland, Tripleten, Salmon, Sumsub, Educate Online, Coding Invader, Watchanga, RTS school, getstage, Wegotripe,  SocialJet, Palt,  Poks, ",
+      "case3caption": "B2B2C",
+      "case3companies": "Yango, inDrive, Amma pregnancy tracker, Solar Staff, make love, Colife, YallaHub, WEE marketplace, Realiste, drinkits,",
+      "message": "“ I’m a founder of startup for a while, and we are working in the Latam market 2 years. I wish I had this book when I started.”"
+    }
+  ]
 }

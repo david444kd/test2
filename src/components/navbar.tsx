@@ -7,8 +7,10 @@ import {
   PopoverContent,
   Button,
 } from "@nextui-org/react";
+import { useTranslation } from "react-i18next";
 import { useEffect, useState } from "react";
 const Navvbar = () => {
+  const { t } = useTranslation();
   const [navButton, setnavButton] = useState(false);
   useEffect(() => {
     const sections = document.querySelectorAll<HTMLElement>(".section");
@@ -102,42 +104,48 @@ const Navvbar = () => {
             color="foreground"
             href="#Table of contents"
           >
-            Table of contents
+            {/* Table of contents */}
+            {t("nav.0.1")}
           </Link>
           <Link
             className="lg:p-13 md:p-10 sm:p-5 nav-list w-full justify-center"
             color="foreground"
             href="#Problems"
           >
-            Problems
+            {/* Problems */}
+            {t("nav.0.2")}
           </Link>
           <Link
             className="lg:p-13 md:p-10 sm:p-5 nav-list w-full justify-center"
             color="foreground"
             href="#Solutions"
           >
-            Solutions
+            {/* Solutions */}
+            {t("nav.0.3")}
           </Link>
           <Link
             className="lg:p-13 md:p-10 sm:p-5 nav-list w-full justify-center"
             color="foreground"
             href="#Tools and Templates"
           >
-            Tools
+            {/* Tools */}
+            {t("nav.0.4")}
           </Link>
           <Link
             className="lg:p-13 md:p-10 sm:p-5 nav-list w-full justify-center"
             color="foreground"
             href="#Pricing"
           >
-            Pricing
+            {/* Pricing */}
+            {t("nav.0.5")}
           </Link>
           <Link
             className="lg:p-13 md:p-10 sm:p-5 nav-list w-full justify-center"
             color="foreground"
             href="#Author"
           >
-            Author
+            {/* Author */}
+            {t("nav.0.6")}
           </Link>
         </NavbarItem>
       </Navbar>
