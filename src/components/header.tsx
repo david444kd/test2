@@ -1,7 +1,7 @@
 import { Button, Link } from "@nextui-org/react";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import Imgg from "../assets/imgg";
+
 const Header = () => {
   const [language, setLanguage] = useState("en");
   const { t, i18n } = useTranslation();
