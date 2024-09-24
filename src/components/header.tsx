@@ -53,8 +53,8 @@ const Header = () => {
             sooner.”
           </p>
           <p className="text-slate-400 mb-6 text-center md:text-start absolute m-auto left-7 right-7 top-3/4 sm:top-auto sm:right-auto sm:left-auto sm:static">
-            <span className="text-blue-500">— Michael Montoya,</span> Freelance
-            Designer
+            <span className="text-blue-500">{t("top.0.topName")}</span>{" "}
+            {t("top.0.topDescription")}
           </p>
         </div>
       </div>
