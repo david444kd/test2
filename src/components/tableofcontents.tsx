@@ -24,37 +24,55 @@ const Tableofcontents = () => {
 
         <ol className=" mt-16 space-y-10 sm:space-y-16">
           <h3 className="text-3xl font-bold tracking-tight text-slate-900">
-            {t("description.0.module1")}
+            {t("description.0.card1Title")}
           </h3>
           <Card className="bg-slate-50 shadow-none">
             <CardBody>
               <ul className="sm:py-4 sm:px-4 divide-y divide-slate-300 bg-slate-50 rounded-2xl">
                 <li className="py-4">
-                  <span>Getting started</span>
+                  <span>{t("description.0.card1Chech1")}</span>
                 </li>
                 <li className="py-4">
-                  <span>First Step and Decision</span>
+                  <span>{t("description.0.card1Chech2")}</span>
                 </li>
                 <li className="py-4">
-                  <span>How is The Process</span>
+                  <span>{t("description.0.card1Chech3")}</span>
+                </li>
+                <li className="py-4">
+                  <span>{t("description.0.card1Chech4")}</span>
+                </li>
+                <li className="py-4">
+                  <span>{t("description.0.card1Chech5")}</span>
+                </li>
+                <li className="py-4">
+                  <span>{t("description.0.card1Chech6")}</span>
                 </li>
               </ul>
             </CardBody>
           </Card>
           <h3 className="text-3xl font-bold tracking-tight text-slate-900">
-            {t("description.0.module2")}
+            {t("description.0.card2Title")}
           </h3>
           <Card className="bg-slate-50 shadow-none">
             <CardBody>
               <ul className="sm:py-4 sm:px-4 divide-y divide-slate-300 bg-slate-50 rounded-2xl">
                 <li className="py-4">
-                  <span>Equipments</span>
+                  <span>{t("description.0.card2Chech1")}</span>
                 </li>
                 <li className="py-4">
-                  <span>Skills</span>
+                  <span>{t("description.0.card2Chech2")}</span>
                 </li>
                 <li className="py-4">
-                  <span>Tools</span>
+                  <span>{t("description.0.card2Chech3")}</span>
+                </li>
+                <li className="py-4">
+                  <span>{t("description.0.card2Chech4")}</span>
+                </li>
+                <li className="py-4">
+                  <span>{t("description.0.card2Chech5")}</span>
+                </li>
+                <li className="py-4">
+                  <span>{t("description.0.card2Chech6")}</span>
                 </li>
               </ul>
             </CardBody>
@@ -62,106 +80,163 @@ const Tableofcontents = () => {
           {count && (
             <ol className=" mt-16 space-y-10 sm:space-y-16">
               <h3 className="text-3xl font-bold tracking-tight text-slate-900">
-                Personal Branding
+                {t("description.0.card3Title")}
               </h3>
               <Card className="bg-slate-50 shadow-none">
                 <CardBody>
                   <ul className="sm:py-4 sm:px-4 divide-y divide-slate-300 bg-slate-50 rounded-2xl">
                     <li className="py-4">
-                      <span>Branding</span>
+                      <span>{t("description.0.card3Chech1")}</span>
                     </li>
                     <li className="py-4">
-                      <span>Build Audience</span>
+                      <span>{t("description.0.card3Chech2")}</span>
                     </li>
                     <li className="py-4">
-                      <span>Portfolio</span>
+                      <span>{t("description.0.card3Chech3")}</span>
                     </li>
                     <li className="py-4">
-                      <span>Testimonials</span>
+                      <span>{t("description.0.card3Chech4")}</span>
+                    </li>
+                    <li className="py-4">
+                      <span>{t("description.0.card3Chech5")}</span>
+                    </li>
+                    <li className="py-4">
+                      <span>{t("description.0.card3Chech6")}</span>
                     </li>
                   </ul>
                 </CardBody>
               </Card>
               <h3 className="text-3xl font-bold tracking-tight text-slate-900">
-                Business Model
+                {t("description.0.card4Title")}
               </h3>
               <Card className="bg-slate-50 shadow-none">
                 <CardBody>
                   <ul className="sm:py-4 sm:px-4 divide-y divide-slate-300 bg-slate-50 rounded-2xl">
                     <li className="py-4">
-                      <span>Services</span>
+                      <span>{t("description.0.card4Chech1")}</span>
                     </li>
                     <li className="py-4">
-                      <span>Pricing</span>
+                      <span>{t("description.0.card4Chech2")}</span>
                     </li>
                     <li className="py-4">
-                      <span>Productized Services</span>
+                      <span>{t("description.0.card4Chech3")}</span>
+                    </li>
+                    <li className="py-4">
+                      <span>{t("description.0.card4Chech4")}</span>
+                    </li>
+                    <li className="py-4">
+                      <span>{t("description.0.card4Chech5")}</span>
+                    </li>
+                    <li className="py-4">
+                      <span>{t("description.0.card4Chech6")}</span>
                     </li>
                   </ul>
                 </CardBody>
               </Card>
               <h3 className="text-3xl font-bold tracking-tight text-slate-900">
-                Marketing
+                {t("description.0.card5Title")}
               </h3>
               <Card className="bg-slate-50 shadow-none">
                 <CardBody>
                   <ul className="sm:py-4 sm:px-4 divide-y divide-slate-300 bg-slate-50 rounded-2xl">
                     <li className="py-4">
-                      <span>Publicize</span>
+                      <span>{t("description.0.card5Chech1")}</span>
                     </li>
                     <li className="py-4">
-                      <span>Be Visible</span>
+                      <span>{t("description.0.card5Chech2")}</span>
                     </li>
                     <li className="py-4">
-                      <span>Content Creating</span>
+                      <span>{t("description.0.card5Chech3")}</span>
+                    </li>
+                    <li className="py-4">
+                      <span>{t("description.0.card5Chech4")}</span>
+                    </li>
+                    <li className="py-4">
+                      <span>{t("description.0.card5Chech5")}</span>
+                    </li>
+                    <li className="py-4">
+                      <span>{t("description.0.card5Chech6")}</span>
                     </li>
                   </ul>
                 </CardBody>
               </Card>
               <h3 className="text-3xl font-bold tracking-tight text-slate-900">
-                Tips
+                {t("description.0.card6Title")}
               </h3>
               <Card className="bg-slate-50 shadow-none">
                 <CardBody>
                   <ul className="sm:py-4 sm:px-4 divide-y divide-slate-300 bg-slate-50 rounded-2xl">
                     <li className="py-4">
-                      <span>Actionable Tips</span>
+                      <span>{t("description.0.card6Chech1")}</span>
+                    </li>
+                    <li className="py-4">
+                      <span>{t("description.0.card6Chech2")}</span>
+                    </li>
+                    <li className="py-4">
+                      <span>{t("description.0.card6Chech3")}</span>
+                    </li>
+                    <li className="py-4">
+                      <span>{t("description.0.card6Chech4")}</span>
+                    </li>
+                    <li className="py-4">
+                      <span>{t("description.0.card6Chech5")}</span>
+                    </li>
+                    <li className="py-4">
+                      <span>{t("description.0.card6Chech6")}</span>
                     </li>
                   </ul>
                 </CardBody>
               </Card>
               <h3 className="text-3xl font-bold tracking-tight text-slate-900">
-                Conclusion
+                {t("description.0.card7Title")}
               </h3>
               <Card className="bg-slate-50 shadow-none">
                 <CardBody>
                   <ul className="sm:py-4 sm:px-4 divide-y divide-slate-300 bg-slate-50 rounded-2xl">
                     <li className="py-4">
-                      <span>Conclusion</span>
+                      <span>{t("description.0.card7Chech1")}</span>
+                    </li>
+                    <li className="py-4">
+                      <span>{t("description.0.card7Chech2")}</span>
+                    </li>
+                    <li className="py-4">
+                      <span>{t("description.0.card7Chech3")}</span>
+                    </li>
+                    <li className="py-4">
+                      <span>{t("description.0.card7Chech4")}</span>
+                    </li>
+                    <li className="py-4">
+                      <span>{t("description.0.card7Chech5")}</span>
+                    </li>
+                    <li className="py-4">
+                      <span>{t("description.0.card7Chech6")}</span>
                     </li>
                   </ul>
                 </CardBody>
               </Card>
               <h3 className="text-3xl font-bold tracking-tight text-slate-900">
-                Tools and Templates
+                {t("description.0.card8Title")}
               </h3>
               <Card className="bg-slate-50 shadow-none">
                 <CardBody>
                   <ul className="sm:py-4 sm:px-4 divide-y divide-slate-300 bg-slate-50 rounded-2xl">
                     <li className="py-4">
-                      <span>Proposal Template</span>
+                      <span>{t("description.0.card8Chech1")}</span>
                     </li>
                     <li className="py-4">
-                      <span>Contract Template</span>
+                      <span>{t("description.0.card8Chech2")}</span>
                     </li>
                     <li className="py-4">
-                      <span>Invoice Template</span>
+                      <span>{t("description.0.card8Chech3")}</span>
                     </li>
                     <li className="py-4">
-                      <span>Project Management Tool</span>
+                      <span>{t("description.0.card8Chech4")}</span>
                     </li>
                     <li className="py-4">
-                      <span>Customer Management Tool</span>
+                      <span>{t("description.0.card8Chech5")}</span>
+                    </li>
+                    <li className="py-4">
+                      <span>{t("description.0.card8Chech6")}</span>
                     </li>
                   </ul>
                 </CardBody>

@@ -1,4 +1,10 @@
 import { useTranslation } from "react-i18next";
+import Img1 from "../assets/image1.png";
+import Img2 from "../assets/image2.png";
+import Img3 from "../assets/image3.png";
+import Img4 from "../assets/image4.png";
+import Img5 from "../assets/image5.png";
+import Img6 from "../assets/image6.png";
 const Tools = () => {
   const { t } = useTranslation();
   return (
@@ -19,11 +25,7 @@ const Tools = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-10 gap-x-8">
           <div className="mt-8">
             <div></div>
-            <img
-              className="shadow-lg rounded-xl"
-              src="https://getyourfirstclient.freelancerpath.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fproposal.223863b7.png&w=828&q=75"
-              alt=""
-            />
+            <img className=" rounded-xl" src={Img1} alt="" />
             <h3 className="text-slate-500 font-mono mb-2 text-sm mt-8">01</h3>
             <h2 className="text-slate-900 font-medium">
               {t("materials.0.heading1")}
@@ -33,11 +35,7 @@ const Tools = () => {
             </p>
           </div>
           <div className="mt-8">
-            <img
-              className="shadow-lg rounded-xl"
-              src="https://getyourfirstclient.freelancerpath.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcontract.1b086f9c.png&w=828&q=75"
-              alt=""
-            />
+            <img className="rounded-xl" src={Img2} alt="" />
             <h3 className="text-slate-500 font-mono mb-2 text-sm mt-8">02</h3>
             <h2 className="text-slate-900 font-medium">
               {t("materials.0.heading2")}
@@ -47,11 +45,7 @@ const Tools = () => {
             </p>
           </div>
           <div className="mt-8">
-            <img
-              className="shadow-lg rounded-xl"
-              src="https://getyourfirstclient.freelancerpath.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Finvoice.52baa94c.png&w=828&q=75"
-              alt=""
-            />
+            <img className="rounded-xl" src={Img3} alt="" />
             <h3 className="text-slate-500 font-mono mb-2 text-sm mt-8">03</h3>
             <h2 className="text-slate-900 font-medium">
               {t("materials.0.heading3")}
@@ -61,11 +55,7 @@ const Tools = () => {
             </p>
           </div>
           <div className="mt-8">
-            <img
-              className="shadow-lg rounded-xl"
-              src="https://getyourfirstclient.freelancerpath.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fproject.841bf686.png&w=828&q=75"
-              alt=""
-            />
+            <img className="rounded-xl" src={Img4} alt="" />
             <h3 className="text-slate-500 font-mono mb-2 text-sm mt-8">04</h3>
             <h2 className="text-slate-900 font-medium">
               {t("materials.0.heading4")}
@@ -75,11 +65,7 @@ const Tools = () => {
             </p>
           </div>
           <div className="mt-8">
-            <img
-              className="shadow-lg rounded-xl"
-              src="https://getyourfirstclient.freelancerpath.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcustomer.b32762bd.png&w=828&q=75"
-              alt=""
-            />
+            <img className="rounded-xl" src={Img5} alt="" />
             <h3 className="text-slate-500 font-mono mb-2 text-sm mt-8">05</h3>
             <h2 className="text-slate-900 font-medium">
               {t("materials.0.heading5")}
@@ -89,11 +75,7 @@ const Tools = () => {
             </p>
           </div>
           <div className="mt-8">
-            <img
-              className="shadow-lg rounded-xl"
-              src="https://getyourfirstclient.freelancerpath.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fongoing.5c6d364c.png&w=828&q=75"
-              alt=""
-            />
+            <img className="rounded-xl" src={Img6} alt="" />
             <h3 className="text-slate-500 font-mono mb-2 text-sm mt-8">06</h3>
             <h2 className="text-slate-900 font-medium">
               {t("materials.0.heading6")}

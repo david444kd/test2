@@ -1,7 +1,7 @@
 import { Button, Link } from "@nextui-org/react";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-
+import Book from "../assets/финал.png";
 const Header = () => {
   const [language, setLanguage] = useState("en");
   const { t, i18n } = useTranslation();
@@ -61,12 +61,13 @@ const Header = () => {
       <div className="container mx-auto p-2 md:p-8 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center justify-center">
           <div className="absolute z-50 flex justify-center -translate-x-1/2  -translate-y-1/2 left-1/2 right-1/2 lg:right-auto lg:left-auto lg:-translate-x-0 lg:-translate-y-0 lg:ml-28  top-52 lg:top-32 w-64 md:w-96 lg:w-[30vw]">
-            <img
+            {/* <img
               src="https://getyourfirstclient.freelancerpath.com/_next/image?url=/_next/static/media/cover.8d0bf130.png&w=1920&q=75"
               alt=""
               className="w-64 md:w-80 lg:w-[30vw]"
-            />
+            /> */}
             {/* <Imgg></Imgg> */}
+            <img className="w-64 md:w-80 lg:w-[30vw]" src={Book} alt="" />
           </div>
           <div></div>
 
@@ -102,41 +103,45 @@ const Header = () => {
             <p className="text-gray-700 mb-6">{t("header.0.info2")}</p>
             <p className="text-gray-700 mb-6">{t("header.0.info3")}</p>
 
-            <div className="justify-start md:justify-startspace-x-4 grid grid-cols-1 md:grid-cols-3 sm:space-x-4 space-y-4 sm:space-y-0">
-              <Button
-                color="primary"
-                className="rounded-md bg-orange-500 text-xs"
-                href="#7"
-                as={Link}
-              >
-                {t("button1")}
-              </Button>
-              <Button
-                color="primary"
-                href="#5"
-                as={Link}
-                className="rounded-md bg-white text-orange-500 !border border-blue-300 "
-              >
-                {t("button2")}
-              </Button>
-              <Button
-                id="langButton"
-                color="primary"
-                className="rounded-md bg-orange-500"
-                href="#"
-                as={Link}
-                onPress={() => {
-                  if (language == "en") {
-                    changeLang("ru");
-                    setLanguage("ru");
-                  } else {
-                    changeLang("en");
-                    setLanguage("en");
-                  }
-                }}
-              >
-                {language === "en" ? "Switch to Russian" : "Switch to English"}
-              </Button>
+            <div className="justify-start md:justify-startspace-x-4  sm:space-x-4 space-y-4 sm:space-y-0">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                <Button
+                  color="primary"
+                  className="rounded-md bg-orange-500 text-xs"
+                  href="#7"
+                  as={Link}
+                >
+                  {t("button1")}
+                </Button>
+                <Button
+                  color="primary"
+                  href="#5"
+                  as={Link}
+                  className="rounded-md bg-white text-orange-500 !border border-blue-300 "
+                >
+                  {t("button2")}
+                </Button>
+                <Button
+                  id="langButton"
+                  color="primary"
+                  className="rounded-md bg-black text-white"
+                  href="#"
+                  as={Link}
+                  onPress={() => {
+                    if (language == "en") {
+                      changeLang("ru");
+                      setLanguage("ru");
+                    } else {
+                      changeLang("en");
+                      setLanguage("en");
+                    }
+                  }}
+                >
+                  {language === "en"
+                    ? "Switch to Russian"
+                    : "Switch to English"}
+                </Button>
+              </div>
             </div>
           </div>
         </div>
