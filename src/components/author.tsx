@@ -1,11 +1,12 @@
 import { useTranslation } from "react-i18next";
+import AuthorAnton from "../assets/Anton.jpg";
 const Author = () => {
   const { t } = useTranslation();
   return (
     <div id="Author" className="section max-w-5xl pt-44 mx-auto sm:px-6">
       <img
         className="-mt-16 h-44 w-44 rounded-full md:float-right float-left md:h-64 md:w-64 lg:mr-20 lg:h-72 lg:w-72"
-        src="https://getyourfirstclient.freelancerpath.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fauthor.c4e39cba.png&w=1200&q=75"
+        src={AuthorAnton}
         alt=""
       />
       <div className="bg-slate-50 p-5 sm:p-20 rounded-3xl">

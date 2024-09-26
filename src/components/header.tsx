@@ -61,12 +61,6 @@ const Header = () => {
       <div className="container mx-auto p-2 md:p-8 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center justify-center">
           <div className="absolute z-50 flex justify-center -translate-x-1/2  -translate-y-1/2 left-1/2 right-1/2 lg:right-auto lg:left-auto lg:-translate-x-0 lg:-translate-y-0 lg:ml-28  top-52 lg:top-32 w-64 md:w-96 lg:w-[30vw]">
-            {/* <img
-              src="https://getyourfirstclient.freelancerpath.com/_next/image?url=/_next/static/media/cover.8d0bf130.png&w=1920&q=75"
-              alt=""
-              className="w-64 md:w-80 lg:w-[30vw]"
-            /> */}
-            {/* <Imgg></Imgg> */}
             <img className="w-64 md:w-80 lg:w-[30vw]" src={Book} alt="" />
           </div>
           <div></div>
