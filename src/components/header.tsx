@@ -2,6 +2,7 @@ import { Button, Link } from "@nextui-org/react";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import Book from "../assets/финал.png";
+import LanguageButton from "../assets/lang";
 const Header = () => {
   const [language, setLanguage] = useState("en");
   const { t, i18n } = useTranslation();
@@ -118,7 +119,7 @@ const Header = () => {
                 <Button
                   id="langButton"
                   color="primary"
-                  className="rounded-md bg-black text-white"
+                  className="rounded-md bg-black text-white absolute top-5 left-5 z-50"
                   href="#"
                   as={Link}
                   onPress={() => {
@@ -131,9 +132,10 @@ const Header = () => {
                     }
                   }}
                 >
-                  {language === "en"
+                  {/* {language === "en"
                     ? "Switch to Russian"
-                    : "Switch to English"}
+                    : "Switch to English"} */}
+                  <LanguageButton />
                 </Button>
               </div>
             </div>
