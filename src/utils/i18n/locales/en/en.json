@@ -8,7 +8,7 @@
   ],
   "header": [
     {
-      "caption": "EXCLUSIVE CASE STUDIES FROM COMPANIES LIKE",
+      "caption": "EXCLUSIVE CASE STUDIES FROM 48 COMPANIES",
       "info1": "The author engages in thought-provoking conversations with founders of companies operating in the global market. Through these intimate dialogues, the founders share their personal stories, challenges, and strategies for navigating the complexities of international expansion.",
       "info2": "The book explores the \"first steps\" toward building a global business, delving into topics such as cultural adaptation, market entry, overcoming fears of failure, and dealing with the unpredictability of foreign markets. Each chapter features a different founder from a diverse range of industries and regions, providing a nuanced look at the mindset, courage, and innovative thinking required to take the leap into new territories.",
       "info3": "In this conversational format, readers learn actionable insights and strategies while also gaining a deeper understanding of the emotional and mental resilience necessary to succeed on a global stage. This book offers a fresh perspective on global entrepreneurship, blending real-world business advice with the inspiring personal journeys of those who dared to take their companies beyond borders."
@@ -121,11 +121,11 @@
       "caption": " » CASES «",
       "title": "EXCLUSIVE CASE STUDIES FROM COMPANIES LIKE",
       "case1caption": "B2B COMPANIES",
-      "case1companies": "iSpring, Bitrix, Altegio, Jivosite, Borzo, Kammo, Usedesk, Edadeal, Albato, SocialJet, Electroneek, Sumsub, Smart driving, Amivisor, Uplify, Livedune, Ivitech, Sputnik, megainsight, Konsol, Proks, LinkedHelper, Lemon ai, palt, AIstats",
+      "case1companies": "iSpring, (*b2b hrtech), Altegio, (*b2b martech), Borzo, (*b2b hrtech), (*b2b ai), (*b2b martech), Albato, (*b2b martech), (*b2b fintech), Smart driving, Amivisor, Uplify, Livedune, Ivitech, Sputnik, Megainsight, Konsol, (*b2b ai), (*b2b martech), Lemon ai, (*b2b marketplace)",
       "case2caption": "B2C COMPANIES",
-      "case2companies": "Ebac, Kodland, Tripleten, Salmon, Sumsub, Educate Online, Coding Invader, Watchanga, RTS school, getstage, Wegotripe,  SocialJet, Palt,  Poks, ",
+      "case2companies": "Ebac, Kodland, Tripleten, (*b2c fintech), (*b2c ai), (*b2c edtech), Coding Invader, (*b2c martech), RTS school, getstage, Wegotripe, (*b2c martech), (*b2c marketplace), (*b2c gambling)",
       "case3caption": "B2B2C",
-      "case3companies": "Yango, inDrive, Amma pregnancy tracker, Solar Staff, make love, Colife, YallaHub, WEE marketplace, Realiste, drinkits,",
+      "case3companies": "Yango, inDrive, (*b2b2c marketplace), Amma pregnancy tracker, Solar Staff, make love, Colife, (*b2b2c marketplace), (*b2b2c proptech)",
       "message": "“ I’m a founder of startup for a while, and we are working in the Latam market 2 years. I wish I had this book when I started.”"
     }
   ],

@@ -1,8 +1,11 @@
 import { Button, Link } from "@nextui-org/react";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import Book from "../assets/финал.png";
-import LanguageButton from "../assets/lang";
+// import Book from "../assets/финал.png";
+import Book1 from "../assets/cover_rus-removebg.png";
+import Book2 from "../assets/cover_en-removebg.png";
+
+// import LanguageButton from "../assets/lang";
 const Header = () => {
   const [language, setLanguage] = useState("en");
   const { t, i18n } = useTranslation();
@@ -62,7 +65,12 @@ const Header = () => {
       <div className="container mx-auto p-2 md:p-8 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center justify-center">
           <div className="absolute z-50 flex justify-center -translate-x-1/2  -translate-y-1/2 left-1/2 right-1/2 lg:right-auto lg:left-auto lg:-translate-x-0 lg:-translate-y-0 lg:ml-28  top-52 lg:top-32 w-64 md:w-96 lg:w-[30vw]">
-            <img className="w-64 md:w-80 lg:w-[30vw]" src={Book} alt="" />
+            {language == "en" && (
+              <img className="w-64 md:w-80 lg:w-[30vw] " src={Book2} alt="" />
+            )}
+            {language == "ru" && (
+              <img className="w-64 md:w-80 lg:w-[30vw] " src={Book1} alt="" />
+            )}
           </div>
           <div></div>
 
@@ -103,14 +111,15 @@ const Header = () => {
                 <Button
                   color="primary"
                   className="rounded-md bg-orange-500 text-xs"
-                  href="#7"
+                  href="#Pricing"
                   as={Link}
                 >
                   {t("button1")}
                 </Button>
                 <Button
                   color="primary"
-                  href="#5"
+                  // href="#5"
+                  href="#emailForm"
                   as={Link}
                   className="rounded-md bg-white text-orange-500 !border border-blue-300 "
                 >
@@ -119,7 +128,7 @@ const Header = () => {
                 <Button
                   id="langButton"
                   color="primary"
-                  className="rounded-md bg-black text-white absolute top-5 left-5 z-50"
+                  className="rounded-md bg-white text-black font-bold absolute p-0 top-5 left-5 z-50"
                   href="#"
                   as={Link}
                   onPress={() => {
@@ -132,17 +141,16 @@ const Header = () => {
                     }
                   }}
                 >
-                  {/* {language === "en"
-                    ? "Switch to Russian"
-                    : "Switch to English"} */}
-                  <LanguageButton />
+                  {language === "en" ? "RU" : "EN"}
+
+                  {/* <LanguageButton /> */}
                 </Button>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="mx-auto xl:pt-96 lg:pt-72 md:pt-60 lg:max-w-4xl pt-20">
+        <div className="mx-auto xl:pt-40 lg:pt-32 md:pt-60 lg:max-w-4xl pt-20">
           <h1 className="text-4xl font-bold text-slate-900 tracking-tight">
             {t("main.0.caption")}
           </h1>

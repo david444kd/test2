@@ -39,12 +39,17 @@ const Pricing = () => {
               <p className="text-lg text-slate-600 mt-2">
                 {t("pricing.0.firstCardText")}
               </p>
-              <Button
-                color="primary"
-                className="bg-slate-900 hover:opacity-40 mt-8 text-xs"
+              <a
+                href="https://go.greatleads.ru/book_payment_149"
+                target="_blanc"
               >
-                {t("pricing.0.firstCardButton")}
-              </Button>
+                <Button
+                  color="primary"
+                  className="bg-slate-900 hover:opacity-40 mt-8 text-xs"
+                >
+                  {t("pricing.0.firstCardButton")}
+                </Button>
+              </a>
               <ul className="mt-8 divide-y divide-slate-200">
                 <li className="flex py-2">
                   <svg
@@ -100,12 +105,19 @@ const Pricing = () => {
               <p className="text-lg text-white mt-2">
                 {t("pricing.0.secondCardText")}
               </p>
-              <Button
-                color="primary"
-                className="bg-white text-orange-500 hover:opacity-40 mt-8 text-xs"
+              <a
+                href="https://go.greatleads.ru/book_payment_249"
+                target="_blank"
               >
-                {t("pricing.0.secondCardButton")}
-              </Button>
+                <Button
+                  href="https://go.greatleads.ru/book_payment_249"
+                  color="primary"
+                  target="_blank"
+                  className="bg-white text-orange-500 hover:opacity-40 mt-8 text-xs"
+                >
+                  {t("pricing.0.secondCardButton")}
+                </Button>
+              </a>
               <ul className="mt-8 divide-y divide-white">
                 <li className="flex py-2">
                   <svg
@@ -151,7 +163,10 @@ const Pricing = () => {
                     {t("pricing.0.secondCardCheck4")}
                   </p>
                 </li>
-                <p className="flex justify-center text-white mt-7">
+                <p
+                  id="emailForm"
+                  className="flex justify-center text-white mt-7"
+                >
                   {t("pricing.0.footer")}
                 </p>
               </ul>
