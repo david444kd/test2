@@ -5,6 +5,7 @@ import Img3 from "../assets/image3.png";
 import Img4 from "../assets/image4.png";
 import Img5 from "../assets/image5.png";
 import Img6 from "../assets/image6.png";
+import { Image } from "@nextui-org/react";
 const Tools = () => {
   const { t } = useTranslation();
   return (
@@ -25,7 +26,7 @@ const Tools = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-10 gap-x-8">
           <div className="mt-8">
             <div></div>
-            <img className=" rounded-xl" src={Img1} alt="" />
+            <Image className=" rounded-xl" src={Img1} alt="" />
             <h3 className="text-slate-500 font-mono mb-2 text-sm mt-8">01</h3>
             <h2 className="text-slate-900 font-medium">
               {t("materials.0.heading1")}
@@ -35,7 +36,7 @@ const Tools = () => {
             </p>
           </div>
           <div className="mt-8">
-            <img className="rounded-xl" src={Img2} alt="" />
+            <Image className="rounded-xl" src={Img2} alt="" />
             <h3 className="text-slate-500 font-mono mb-2 text-sm mt-8">02</h3>
             <h2 className="text-slate-900 font-medium">
               {t("materials.0.heading2")}
@@ -45,7 +46,7 @@ const Tools = () => {
             </p>
           </div>
           <div className="mt-8">
-            <img className="rounded-xl" src={Img3} alt="" />
+            <Image className="rounded-xl" src={Img3} alt="" />
             <h3 className="text-slate-500 font-mono mb-2 text-sm mt-8">03</h3>
             <h2 className="text-slate-900 font-medium">
               {t("materials.0.heading3")}
@@ -55,7 +56,7 @@ const Tools = () => {
             </p>
           </div>
           <div className="mt-8">
-            <img className="rounded-xl" src={Img4} alt="" />
+            <Image className="rounded-xl" src={Img4} alt="" />
             <h3 className="text-slate-500 font-mono mb-2 text-sm mt-8">04</h3>
             <h2 className="text-slate-900 font-medium">
               {t("materials.0.heading4")}
@@ -65,7 +66,7 @@ const Tools = () => {
             </p>
           </div>
           <div className="mt-8">
-            <img className="rounded-xl" src={Img5} alt="" />
+            <Image className="rounded-xl" src={Img5} alt="" />
             <h3 className="text-slate-500 font-mono mb-2 text-sm mt-8">05</h3>
             <h2 className="text-slate-900 font-medium">
               {t("materials.0.heading5")}
@@ -75,7 +76,7 @@ const Tools = () => {
             </p>
           </div>
           <div className="mt-8">
-            <img className="rounded-xl" src={Img6} alt="" />
+            <Image className="rounded-xl" src={Img6} alt="" />
             <h3 className="text-slate-500 font-mono mb-2 text-sm mt-8">06</h3>
             <h2 className="text-slate-900 font-medium">
               {t("materials.0.heading6")}

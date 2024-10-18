@@ -1,4 +1,4 @@
-import { Button, Link } from "@nextui-org/react";
+import { Button, Link, Image } from "@nextui-org/react";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 // import Book from "../assets/финал.png";
@@ -66,10 +66,10 @@ const Header = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center justify-center">
           <div className="absolute z-50 flex justify-center -translate-x-1/2  -translate-y-1/2 left-1/2 right-1/2 lg:right-auto lg:left-auto lg:-translate-x-0 lg:-translate-y-0 lg:ml-28  top-52 lg:top-32 w-64 md:w-96 lg:w-[30vw]">
             {language == "en" && (
-              <img className="w-64 md:w-80 lg:w-[30vw] " src={Book2} alt="" />
+              <Image className="w-64 md:w-80 lg:w-[30vw] " src={Book2} alt="" />
             )}
             {language == "ru" && (
-              <img className="w-64 md:w-80 lg:w-[30vw] " src={Book1} alt="" />
+              <Image className="w-64 md:w-80 lg:w-[30vw] " src={Book1} alt="" />
             )}
           </div>
           <div></div>

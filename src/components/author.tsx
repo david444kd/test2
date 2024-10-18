@@ -1,16 +1,18 @@
 import { useTranslation } from "react-i18next";
 import AuthorAnton from "../assets/Anton.jpg";
 import Telegram from "../assets/telegram";
-import { Link } from "@nextui-org/react";
+import { Link, Image } from "@nextui-org/react";
 const Author = () => {
   const { t } = useTranslation();
   return (
     <div id="Author" className="section max-w-5xl pt-44 mx-auto sm:px-6">
-      <img
-        className="-mt-16 h-44 w-44 rounded-full md:float-right float-left md:h-64 md:w-64 lg:mr-20 lg:h-72 lg:w-72"
-        src={AuthorAnton}
-        alt=""
-      />
+      <div className="flex justify-end -mt-16 h-44 w-44 rounded-full md:float-right float-left md:h-64 md:w-64 lg:mr-20 lg:h-72 lg:w-72">
+        <Image
+          className=" h-44 w-44 rounded-full md:float-right float-left md:h-64 md:w-64  lg:h-72 lg:w-72"
+          src={AuthorAnton}
+          alt=""
+        />
+      </div>
       <div className="bg-slate-50 p-5 sm:p-20 rounded-3xl">
         <div className="sm:inline-flex flex w-full sm:w-16 pt-10">
           <h2 className="inline-flex text-orange-500 border-solid border-2 border-orange-500 px-4 py-1 rounded-full">

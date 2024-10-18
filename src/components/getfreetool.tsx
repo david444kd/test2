@@ -12,7 +12,21 @@ const Getfreetool: React.FC = () => {
 
   const submitHandler = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
+    const genUserId = () => {
+      const localId = localStorage.getItem("userId");
+      if (localId) {
+        console.log(localId);
 
+        return localId;
+      } else {
+        const newUserId = crypto.randomUUID();
+        localStorage.setItem("userId", newUserId);
+        console.log(newUserId);
+
+        return newUserId;
+      }
+    };
+    const userId = genUserId();
     const currentTime = new Date().valueOf();
     const lastSubmitTime = localStorage.getItem("loops-form-timestamp");
 
@@ -27,7 +41,7 @@ const Getfreetool: React.FC = () => {
 
     const formBody = `userGroup=&mailingLists=&email=${encodeURIComponent(
       email
-    )}`;
+    )}&userId=${userId}`;
 
     fetch(
       "https://app.loops.so/api/newsletter-form/clmdyx6lj008smn0pednse60p",
