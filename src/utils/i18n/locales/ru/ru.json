@@ -124,11 +124,11 @@
       "caption": "» КЕЙСЫ «",
       "title": "ЭКСКЛЮЗИВНЫЕ КЕЙСЫ ОТ КОМПАНИЙ",
       "case1caption": "B2B COMPANIES",
-      "case1companies": "iSpring, (*b2b hrtech), Altegio, (*b2b martech), Borzo, (*b2b hrtech), (*b2b ai), (*b2b martech), Albato, (*b2b martech), (*b2b fintech), Smart driving, Amivisor, Uplify, Livedune, Ivitech, Sputnik, Megainsight, Konsol, (*b2b ai), (*b2b martech), Lemon ai, (*b2b marketplace)",
+      "case1companies": "(b2b hrtech), (*b2b hrtech), (b2b ), (*b2b martech), Borzo, (*b2b hrtech), (*b2b ai), (*b2b martech), Albato, (*b2b martech), (*b2b fintech), Smart driving, Amivisor, Uplify, Livedune, Ivitech, Sputnik, Megainsight, (b2b hrtech), (*b2b ai), (*b2b martech), Lemon ai, (*b2b marketplace)",
       "case2caption": "B2C COMPANIES",
-      "case2companies": "Ebac, Kodland, Tripleten, (*b2c fintech), (*b2c ai), (*b2c edtech), Coding Invader, (*b2c martech), RTS school, getstage, Wegotripe, (*b2c martech), (*b2c marketplace), (*b2c gambling)",
+      "case2companies": "(b2b edtech), Kodland, (b2b edtech), (*b2c fintech), (*b2c ai), (*b2c edtech), Coding Invader, (*b2c martech), RTS school, Getstage, (*b2c martech), (*b2c marketplace), (*b2c gambling)",
       "case3caption": "B2B2C",
-      "case3companies": "Yango, inDrive, (*b2b2c marketplace), Amma pregnancy tracker, Solar Staff, make love, Colife, (*b2b2c marketplace), (*b2b2c proptech)",
+      "case3companies": "Yango, inDrive, (*b2b2c marketplace), (*b2b2c femtech), Solar Staff, make love, Colife, (*b2b2c marketplace), (*b2b2c proptech)",
       "message": "“Моя цель собрать один рабочий фреймворк по успешному выходу на рынок другой страны”"
     }
   ],
