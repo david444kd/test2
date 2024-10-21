@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Card, CardBody, User } from "@nextui-org/react";
 import { useTranslation } from "react-i18next";
+import AntonImg from "../assets/Anton.jpg";
 const Tableofcontents = () => {
   const { t } = useTranslation();
   const [count, setCount] = useState(false);
@@ -283,10 +284,10 @@ const Tableofcontents = () => {
           </p>
           <User
             className="mt-10 w-3/4 justify-start sm:justify-center"
-            name="Ayush Chaturvedi"
-            description="Indie Creator"
+            name="Anthony Minkowski"
+            description="Book author"
             avatarProps={{
-              src: "https://getyourfirstclient.freelancerpath.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fayush.4d3df2d5.jpeg&w=828&q=75",
+              src: AntonImg,
             }}
           />
         </div>

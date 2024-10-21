@@ -10,7 +10,10 @@
     {
       "caption": "EXCLUSIVE CASE STUDIES FROM 48 COMPANIES",
       "info1": "The author engages in thought-provoking conversations with founders of companies operating in the global market. Through these intimate dialogues, the founders share their personal stories, challenges, and strategies for navigating the complexities of international expansion.",
-      "info2": "The book explores the \"first steps\" toward building a global business, delving into topics such as cultural adaptation, market entry, overcoming fears of failure, and dealing with the unpredictability of foreign markets. Each chapter features a different founder from a diverse range of industries and regions, providing a nuanced look at the mindset, courage, and innovative thinking required to take the leap into new territories.",
+      "info2": "The book explores the \"first steps\" toward building a global business, delving into topics such as cultural adaptation, market entry, overcoming fears of failure, and dealing with the unpredictability of foreign markets. Each chapter features a different",
+
+      "info2_2": " from a diverse range of industries and",
+      "info2_3": ", providing a nuanced look at the mindset, courage, and innovative thinking required to take the leap into new territories.",
       "info3": "In this conversational format, readers learn actionable insights and strategies while also gaining a deeper understanding of the emotional and mental resilience necessary to succeed on a global stage. This book offers a fresh perspective on global entrepreneurship, blending real-world business advice with the inspiring personal journeys of those who dared to take their companies beyond borders."
     }
   ],
@@ -26,9 +29,9 @@
   ],
   "main": [
     {
-      "caption": "The course that transforms your team into your company's global growth engine",
+      "caption": "The book that transforms your team into your company's global growth engine",
       "1": "First Steps GoGlobal",
-      "text1": "From market entry to international growth, Greatleads offers a comprehensive toolkit of practical tools to help you build and manage a global business.",
+      "text1": "From market entry to international growth - The Greatleads team has gathered best practices and offers a comprehensive suite to help you build and manage a global business.",
       "2": "Localization Without Mistakes",
       "text2": "Avoid common mistakes that lead companies to waste time and money on unsuccessful expansion. Use proven launch strategies to achieve international Product-Market Fit faster.",
       "3": "The Path to Global Scale",
@@ -48,7 +51,7 @@
     {
       "caption": "» WHAT YOUR TEAM WILL LEARN « ",
       "text": "Get a look at all of the content covered in the guide. Everything you need to know is inside.",
-      "about": "Every module include short videos with concrete and actionable next-steps and reflection exercises that your team can put into practice immediately",
+      "about": "Each module includes interviews with 8 funders with concrete and actionable steps as well as reflection exercises that your team can put into practice right away.",
       "card1Title": "Module 1: The Decision to Leap",
       "card2Title": "Module 2: Finding Your Market",
       "card3Title": "Module 3: Preparing for the Unknown",
@@ -113,7 +116,7 @@
       "card8Chech4": "When Do You Celebrate Success?",
       "card8Chech5": "How Do You Know If It’s Working?",
       "card8Chech6": "Founders Reflect on the Journey to Their First Global Opening",
-      "message": "“This is amazing... Such incredible cases, very detailed and holistic.”"
+      "message": "“Literally all the popular markets with Russian entrepreneurs”"
     }
   ],
   "cases": [
@@ -126,7 +129,7 @@
       "case2companies": "Ebac, Kodland, Tripleten, (*b2c fintech), (*b2c ai), (*b2c edtech), Coding Invader, (*b2c martech), RTS school, getstage, Wegotripe, (*b2c martech), (*b2c marketplace), (*b2c gambling)",
       "case3caption": "B2B2C",
       "case3companies": "Yango, inDrive, (*b2b2c marketplace), Amma pregnancy tracker, Solar Staff, make love, Colife, (*b2b2c marketplace), (*b2b2c proptech)",
-      "message": "“ I’m a founder of startup for a while, and we are working in the Latam market 2 years. I wish I had this book when I started.”"
+      "message": "“My goal is to put together one working framework on successfully entering another country's market”"
     }
   ],
   "modules": [
@@ -172,13 +175,14 @@
       "title": "Get your copy of the First Steps GoGlobal",
       "infoText": "Book is available in two different packages so you can pick the one that’s right for you.",
       "firstCardCaption": "Employee Growth",
-      "firstCardText": "A full self-paced video course which includes short module summaries AND in depth explanations of key concepts developed in book First Steps GoGlobal. Students can learn at their own pace, download frameworks to directly apply to their own company through practical exercises, AND learn how to best socialize these concepts to get organizational buy-in.",
+      "firstCardText": "A full self-paced  guide which includes short module summaries AND in depth explanations of key concepts developed in book First Steps GoGlobal. Readers can learn at their own pace, download frameworks to directly apply to their own company through practical exercises, AND learn how to best socialize these concepts to get organizational buy-in.",
       "firstCardButton": "BUY THE BOOK (SIGNED BY AUTHORS)",
       "firstCardCheck1": "SIGNED COPY of First Steps GoGlobal",
       "firstCardCheck2": "Get Full Access to the Global Community (for an entire year), our ecosystem of global growth professionals across the globe, allowing you to get active support and your questions answered on-demand by experts",
       "firstCardCheck3": "20+ Exclusive BONUSES that include proprietary tools, templates and guides that dig deeper into each stage of the global growth journey (see the full list here)",
-      "firstCardCheck4": "Lifetime access to 80+ master class videos to refer back to when you need guidance on specific topics",
+      "firstCardCheck4": "Lifetime access to 80+ webinars on different markets to refer back to when you need guidance on specific topics",
       "secondCardCaption": "Enterprise Growth",
+
       "secondCardText": "A group-based learning program that offers additional benefits of coaching by the authors of First Steps GoGlobal, with a focus on providing custom strategic support to your organization. It incl. a free organizational assessment, coaching sessions (only offered to corporate clients) as well as up to 5 access to the Master Class.",
       "secondCardButton": "BUY THE BOOK (SIGNED BY AUTHORS)",
       "secondCardCheck1": "EVERYTHING in Personal Growth, plus!",

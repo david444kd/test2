@@ -1,5 +1,6 @@
 import { User } from "@nextui-org/react";
 import { useTranslation } from "react-i18next";
+import AntonImg from "../assets/Anton.jpg";
 const Problems = () => {
   const { t } = useTranslation();
   return (
@@ -78,10 +79,10 @@ const Problems = () => {
             </p>
             <User
               className="mt-10 w-3/4 justify-start sm:justify-center"
-              name="Ukeme Booker"
-              description="Freelance UI/UX Designer"
+              name="Anthony Minkowski"
+              description="Book author"
               avatarProps={{
-                src: "https://getyourfirstclient.freelancerpath.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-2.d51dcef5.png&w=256&q=75",
+                src: AntonImg,
               }}
             />
           </div>

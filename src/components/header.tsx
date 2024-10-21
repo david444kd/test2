@@ -1,9 +1,17 @@
-import { Button, Link, Image } from "@nextui-org/react";
+import {
+  Button,
+  Link,
+  Image,
+  Dropdown,
+  DropdownTrigger,
+  DropdownMenu,
+  DropdownItem,
+} from "@nextui-org/react";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 // import Book from "../assets/финал.png";
-import Book1 from "../assets/cover_rus-removebg.png";
-import Book2 from "../assets/cover_en-removebg.png";
+import Book1 from "../assets/cover_ru.png";
+import Book2 from "../assets/cover_en.png";
 
 // import LanguageButton from "../assets/lang";
 const Header = () => {
@@ -158,12 +166,62 @@ const Header = () => {
           </div>
 
           <div className="sm:text-center md:text-left pt-7 sm:pt-10 ">
-            <h1 className=" text-6xl md:text-6xl font-bold mb-4 ">
-              {/* Get your first client. */}
+            <h1 className=" text-4xl md:text-6xl font-bold mb-4 ">
               {t("header.0.caption")}
             </h1>
             <p className="text-gray-700 mb-6">{t("header.0.info1")}</p>
-            <p className="text-gray-700 mb-6">{t("header.0.info2")}</p>
+            <p className="text-gray-700 mb-6">
+              {t("header.0.info2")}
+              <Link className="text-blue-500 sm:px-1" href="#">
+                {language == "ru" ? "основателям" : "founder"}
+              </Link>
+              <span className="pr-1">{t("header.0.info2_2")}</span>
+              {language == "ru" ? (
+                <Dropdown>
+                  <DropdownTrigger>
+                    <Link className="p-0 m-0">рынках</Link>
+                  </DropdownTrigger>
+                  <DropdownMenu aria-label="Static Actions">
+                    <DropdownItem key="USA">США</DropdownItem>
+                    <DropdownItem key="China">Китай</DropdownItem>
+                    <DropdownItem key="England">Англия</DropdownItem>
+                    <DropdownItem key="USA">Бразиия</DropdownItem>
+                    <DropdownItem key="China">Турция</DropdownItem>
+                    <DropdownItem key="England">Казахстан</DropdownItem>
+                    <DropdownItem key="USA">Индия</DropdownItem>
+                    <DropdownItem key="China">Мексика</DropdownItem>
+                    <DropdownItem key="England">Индонезия</DropdownItem>
+                    <DropdownItem key="USA">Филиппины</DropdownItem>
+                    <DropdownItem key="China">ОАЭ</DropdownItem>
+                    <DropdownItem key="England">Африка</DropdownItem>
+                    <DropdownItem key="England">Гонконг</DropdownItem>
+                  </DropdownMenu>
+                </Dropdown>
+              ) : (
+                <Dropdown>
+                  <DropdownTrigger>
+                    <Link>markets</Link>
+                  </DropdownTrigger>
+                  <DropdownMenu aria-label="Static Actions">
+                    <DropdownItem key="USA">USA</DropdownItem>
+                    <DropdownItem key="China">China</DropdownItem>
+                    <DropdownItem key="England">England</DropdownItem>
+                    <DropdownItem key="USA">Brazil</DropdownItem>
+                    <DropdownItem key="China">Turkey</DropdownItem>
+                    <DropdownItem key="England">Kazhakhstan</DropdownItem>
+                    <DropdownItem key="USA">India</DropdownItem>
+                    <DropdownItem key="China">Mexico</DropdownItem>
+                    <DropdownItem key="England">Indonesia</DropdownItem>
+                    <DropdownItem key="USA">Philippines</DropdownItem>
+                    <DropdownItem key="China">UAE</DropdownItem>
+                    <DropdownItem key="England">Africa</DropdownItem>
+                    <DropdownItem key="England">Hong Kong</DropdownItem>
+                  </DropdownMenu>
+                </Dropdown>
+              )}
+              <span> {t("header.0.info2_3")}</span>
+            </p>
+
             <p className="text-gray-700 mb-6">{t("header.0.info3")}</p>
 
             <div className="justify-start md:justify-startspace-x-4  sm:space-x-4 space-y-4 sm:space-y-0">
