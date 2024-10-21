@@ -283,6 +283,7 @@ const Tableofcontents = () => {
             {t("description.0.message")}
           </p>
           <User
+            id="Founder"
             className="mt-10 w-3/4 justify-start sm:justify-center"
             name="Anthony Minkowski"
             description="Book author"

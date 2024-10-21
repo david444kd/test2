@@ -172,7 +172,7 @@ const Header = () => {
             <p className="text-gray-700 mb-6">{t("header.0.info1")}</p>
             <p className="text-gray-700 mb-6">
               {t("header.0.info2")}
-              <Link className="text-blue-500 sm:px-1" href="#">
+              <Link className="text-blue-500 sm:px-1" href="#Founder">
                 {language == "ru" ? "основателям" : "founder"}
               </Link>
               <span className="pr-1">{t("header.0.info2_2")}</span>
