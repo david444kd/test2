@@ -6,19 +6,11 @@ const Footer = () => {
       <p className="mb-1">Copyright &#169; 2024 Remotecamp LTD</p>
       <p>
         All rights reserved. Legal{" "}
-        <Link
-          className="text-sm"
-          href="https://david444kd.github.io/test2/oferta_ru.txt"
-          download
-        >
+        <Link className="text-sm" href="/oferta_ru.txt" download>
           Terms of Use
         </Link>{" "}
         rus and{" "}
-        <Link
-          className="text-sm"
-          href="https://david444kd.github.io/test2/oferta_en.txt"
-          download
-        >
+        <Link className="text-sm" href="/oferta_en.txt" download>
           Terms of Use
         </Link>{" "}
         eng
