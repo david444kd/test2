@@ -179,7 +179,9 @@ const Header = () => {
               {language == "ru" ? (
                 <Dropdown>
                   <DropdownTrigger>
-                    <Link className="p-0 m-0">рынках</Link>
+                    <Link className="p-0 m-0">
+                      рынках <span className="text-default-900">,</span>
+                    </Link>
                   </DropdownTrigger>
                   <DropdownMenu aria-label="Static Actions">
                     <DropdownItem key="USA">США</DropdownItem>
@@ -200,7 +202,9 @@ const Header = () => {
               ) : (
                 <Dropdown>
                   <DropdownTrigger>
-                    <Link>markets</Link>
+                    <Link>
+                      market <span className="text-default-900">,</span>
+                    </Link>
                   </DropdownTrigger>
                   <DropdownMenu aria-label="Static Actions">
                     <DropdownItem key="USA">USA</DropdownItem>
