@@ -123,12 +123,16 @@
     {
       "caption": " » CASES «",
       "title": "EXCLUSIVE CASE STUDIES FROM COMPANIES LIKE",
+
       "case1caption": "B2B COMPANIES",
-      "case1companies": "(b2b hrtech), (*b2b hrtech), (b2b ), (*b2b martech), Borzo, (*b2b hrtech), (*b2b ai), (*b2b martech), Albato, (*b2b martech), (*b2b fintech), Smart driving, Amivisor, Uplify, Livedune, Ivitech, Sputnik, Megainsight, (b2b hrtech), (*b2b ai), (*b2b martech), Lemon ai, (*b2b marketplace)",
+      "case1companies": "Elly analytics, Enty, Torus, Albato, Borzo, IPnote, Airvoice, SocialLinks, Orbita, Amivisor, Uplify, Livedune, Ivitech, Sputnik, JuicyScore, Lemon ai, Bioptic, Makelove. Altegio, Maramio, Debexpert, E-rockers, Electroneek, CityAds, 24TTL",
+
       "case2caption": "B2C COMPANIES",
-      "case2companies": "(b2b edtech), Kodland, (b2b edtech), (*b2c fintech), (*b2c ai), (*b2c edtech), Coding Invader, (*b2c martech), RTS school, Getstage, (*b2c martech), (*b2c marketplace), (*b2c gambling)",
+      "case2companies": "Ebac, Kodland, Skyeng, TripleTen, JET, Coding Invader, Flipper zero, RTS school, Stage, Algoritmics, Whizz, Wee",
+
       "case3caption": "B2B2C",
-      "case3companies": "Yango, inDrive, (*b2b2c marketplace), (*b2b2c femtech), Solar Staff, make love, Colife, (*b2b2c marketplace), (*b2b2c proptech)",
+      "case3companies": "Yango, inDrive, Getcourse, Solar Staff, Colife, Flowwow, MDinc, Renova",
+
       "message": "“My goal is to put together one working framework on successfully entering another country's market”"
     }
   ],
