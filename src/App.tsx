@@ -4,19 +4,19 @@ import Footer from "./components/footer";
 import Header from "./components/header";
 import Navvbar from "./components/navbar";
 import Pricing from "./components/pricing";
-import Problems from "./components/problems";
-import Solutions from "./components/solutions";
-import Tableofcontents from "./components/tableofcontents";
-import Tools from "./components/tools";
+import ForWhom from "./components/problems";
+import Modules from "./components/solutions";
+import Description from "./components/tableofcontents";
+import Materials from "./components/tools";
 function App() {
   return (
     <div>
       <Header></Header>
       <Navvbar></Navvbar>
-      <Tableofcontents></Tableofcontents>
-      <Problems></Problems>
-      <Solutions></Solutions>
-      <Tools></Tools>
+      <Description></Description>
+      <ForWhom></ForWhom>
+      <Modules></Modules>
+      <Materials></Materials>
       <Pricing></Pricing>
       <Author></Author>
       <Footer></Footer>

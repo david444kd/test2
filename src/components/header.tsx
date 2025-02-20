@@ -1,19 +1,9 @@
-import {
-  Button,
-  Link,
-  Image,
-  Dropdown,
-  DropdownTrigger,
-  DropdownMenu,
-  DropdownItem,
-} from "@nextui-org/react";
+import { Button, Link, Image } from "@nextui-org/react";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-// import Book from "../assets/финал.png";
 import Book1 from "../assets/cover_ru.png";
 import Book2 from "../assets/cover_en.png";
 
-// import LanguageButton from "../assets/lang";
 const Header = () => {
   const [language, setLanguage] = useState("en");
   const { t, i18n } = useTranslation();
@@ -122,7 +112,7 @@ const Header = () => {
       </div>
       <div className="container mx-auto p-2 md:p-8 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center justify-center">
-          <div className="absolute z-50 flex justify-center -translate-x-1/2  -translate-y-1/2 left-1/2 right-1/2 lg:right-auto lg:left-auto lg:-translate-x-0 lg:-translate-y-0 lg:ml-28  top-52 lg:top-32 w-64 md:w-96 lg:w-[30vw]">
+          <div className="absolute z-50 flex justify-center -translate-x-1/2  -translate-y-1/2 left-1/2 right-1/2 lg:right-auto lg:left-auto lg:-translate-x-0 lg:-translate-y-0 lg:ml-28  top-52 lg:top-32 w-64 md:w-96 lg:w-[25vw]">
             {language == "en" && (
               <Image
                 loading="eager"
@@ -166,13 +156,13 @@ const Header = () => {
           </div>
 
           <div className="sm:text-center md:text-left pt-7 sm:pt-10 ">
-            <h1 className=" text-4xl md:text-6xl font-bold mb-4 ">
+            <h1 className=" text-4xl md:text-5xl font-bold mb-4">
               {t("header.0.caption")}
             </h1>
             <p className="text-gray-700 mb-6">{t("header.0.info1")}</p>
             <p className="text-gray-700 mb-6">
               {t("header.0.info2")}
-              <Link className="text-blue-500 sm:px-1" href="#Founder">
+              {/* <Link className="text-blue-500 sm:px-1" href="#Founder">
                 {language == "ru" ? "основателям" : "founder"}
               </Link>
               <span className="pr-1">{t("header.0.info2_2")}</span>
@@ -223,7 +213,7 @@ const Header = () => {
                   </DropdownMenu>
                 </Dropdown>
               )}
-              <span> {t("header.0.info2_3")}</span>
+              <span> {t("header.0.info2_3")}</span> */}
             </p>
 
             <p className="text-gray-700 mb-6">{t("header.0.info3")}</p>

@@ -1,7 +1,7 @@
 import { User } from "@nextui-org/react";
 import { useTranslation } from "react-i18next";
 import AntonImg from "../assets/Anton.jpg";
-const Problems = () => {
+const ForWhom = () => {
   const { t } = useTranslation();
   return (
     <div>
@@ -92,4 +92,4 @@ const Problems = () => {
   );
 };
 
-export default Problems;
+export default ForWhom;

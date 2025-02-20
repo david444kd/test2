@@ -6,7 +6,7 @@ import Img4 from "../assets/image4.png";
 import Img5 from "../assets/image5.png";
 import Img6 from "../assets/image6.png";
 import { Image } from "@nextui-org/react";
-const Tools = () => {
+const Materials = () => {
   const { t } = useTranslation();
   return (
     <div className="mb-16 section" id="Tools and Templates">
@@ -91,4 +91,4 @@ const Tools = () => {
   );
 };
 
-export default Tools;
+export default Materials;

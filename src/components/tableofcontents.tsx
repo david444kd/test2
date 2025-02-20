@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Card, CardBody, User } from "@nextui-org/react";
 import { useTranslation } from "react-i18next";
 import AntonImg from "../assets/Anton.jpg";
-const Tableofcontents = () => {
+const Description = () => {
   const { t } = useTranslation();
   const [count, setCount] = useState(false);
   const [knopka, setKnopka] = useState(true);
@@ -297,4 +297,4 @@ const Tableofcontents = () => {
   );
 };
 
-export default Tableofcontents;
+export default Description;

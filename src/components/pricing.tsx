@@ -2,8 +2,12 @@ import { Button } from "@nextui-org/react";
 import { Card, CardBody } from "@nextui-org/react";
 import { useTranslation } from "react-i18next";
 import Getfreetool from "./getfreetool";
+import { useState } from "react";
+import PaymentModal from "./pricingModal/PricingModal";
+
 const Pricing = () => {
   const { t } = useTranslation();
+  const [modalAmount, setModalAmount] = useState<number | null>(null);
   return (
     <div id="Pricing" className="section">
       <div className="md:mt-32 pt-16 mx-auto px-4 sm:px-6 md:max-w-2xl md:px-4 lg:max-w-4xl lg:px-12">
@@ -40,10 +44,11 @@ const Pricing = () => {
                 {t("pricing.0.firstCardText")}
               </p>
               <a
-                href="https://go.greatleads.ru/book_payment_149"
+                // href="https://go.greatleads.ru/book_payment_149"
                 target="_blanc"
               >
                 <Button
+                  onClick={() => setModalAmount(149)}
                   color="primary"
                   className="bg-slate-900 hover:opacity-40 mt-8 text-xs"
                 >
@@ -106,11 +111,12 @@ const Pricing = () => {
                 {t("pricing.0.secondCardText")}
               </p>
               <a
-                href="https://go.greatleads.ru/book_payment_249"
+                // href="https://go.greatleads.ru/book_payment_249"
                 target="_blank"
               >
                 <Button
-                  href="https://go.greatleads.ru/book_payment_249"
+                  onClick={() => setModalAmount(249)}
+                  // href="https://go.greatleads.ru/book_payment_249"
                   color="primary"
                   target="_blank"
                   className="bg-white text-orange-500 hover:opacity-40 mt-8 text-xs"
@@ -174,6 +180,12 @@ const Pricing = () => {
           </Card>
         </div>
       </div>
+      {modalAmount && (
+        <PaymentModal
+          amount={modalAmount}
+          onClose={() => setModalAmount(null)}
+        />
+      )}
       <Getfreetool></Getfreetool>
     </div>
   );

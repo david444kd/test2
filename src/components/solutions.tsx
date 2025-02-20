@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 
-const Solutions = () => {
+const Modules = () => {
   const { t } = useTranslation();
   return (
     <div>
@@ -80,4 +80,4 @@ const Solutions = () => {
   );
 };
 
-export default Solutions;
+export default Modules;
